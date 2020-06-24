@@ -1,0 +1,125 @@
+# Welcome to Serverless!
+#
+# This file is the main config file for your service.
+# It's very minimal at this point and uses default values.
+# You can always add more config options for more control.
+# We've included some commented out config examples here.
+# Just uncomment any of them to get that config option.
+#
+# For full config options, check the docs:
+#    docs.serverless.com
+#
+# Happy Coding!
+
+service: myservice
+# app and org for use with dashboard.serverless.com
+#app: your-app-name
+#org: your-org-name
+
+# You can pin your service to only deploy with a specific Serverless version
+# Check out our docs for more details
+# frameworkVersion: "=X.X.X"
+resources:
+  Resources:
+    properDtos:
+        Type: AWS::DynamoDB::Table
+        Properties:
+          TableName: properDtos
+          AttributeDefinitions:
+            - AttributeName: TourName
+              AttributeType: S
+            - AttributeName: EventLink
+              AttributeType: S   # "N" was number
+          KeySchema: # the *combintation* of these 2 keys uniquely id's records, together this is the PK
+            - AttributeName: TourName # we group by this
+              KeyType: HASH # hash value of "partition key" determines location of the record in the mega-table
+            - AttributeName: EventLink # we sort by this, the "range key"
+              KeyType: RANGE # sort key is range attribute, that's the actually unique thang within a partition
+          # Set the capacity to auto-scale
+          BillingMode: PAY_PER_REQUEST
+provider:
+  name: aws
+  runtime: dotnetcore2.1
+  iamRoleStatements:
+    - Effect: "Allow"
+      Action:
+        - "s3:PutObject"
+      Resource: "arn:aws:s3:::tour-site-thangs/*"  
+    - Effect: Allow
+      Action:
+        - dynamodb:DescribeTable
+        - dynamodb:Query
+        - dynamodb:Scan
+        - dynamodb:GetItem
+        - dynamodb:PutItem
+        - dynamodb:UpdateItem
+        - dynamodb:DeleteItem
+      # Restrict our IAM role permissions to
+      # the specific table for the stage
+      Resource:
+        - "Fn::GetAtt": [ properDtos, Arn ]
+# you can overwrite defaults here
+#  stage: dev
+#  region: us-east-1
+
+# you can add statements to the Lambda function's IAM Role here
+#  iamRoleStatements:
+#    - Effect: "Allow"
+#      Action:
+#        - "s3:ListBucket"
+#      Resource: { "Fn::Join" : ["", ["arn:aws:s3:::", { "Ref" : "ServerlessDeploymentBucket" } ] ]  }
+#    - Effect: "Allow"
+#      Action:
+#        - "s3:PutObject"
+#      Resource:
+#        Fn::Join:
+#          - ""
+#          - - "arn:aws:s3:::"
+#            - "Ref" : "ServerlessDeploymentBucket"
+#            - "/*"
+
+# you can define service wide environment variables here
+#  environment:
+#    variable1: value1
+
+# you can add packaging information here
+package:
+  artifact: bin/release/netcoreapp2.1/deploy-package.zip
+#  exclude:
+#    - exclude-me.js
+#    - exclude-me-dir/**
+
+functions:
+  hello:
+    handler: FsharpHandlers::AwsDotnetFsharp.Handler::hello
+    events:
+      - http:
+          path: hello
+          method: get
+          cors:
+            origin: '*'   
+            headers:
+              - Content-Type
+              - Authorization        
+  template:
+    handler: FsharpHandlers::AwsDotnetFsharp.Handler::template
+    events:
+      - http:
+          path: template
+          method: post
+          cors:
+            origin: '*'   
+            headers:
+              - Content-Type
+              - Authorization                      
+  nuevo:
+    handler: FsharpHandlers::AwsDotnetFsharp.Handler::nuevo
+    events:
+      - http:
+          path: submit
+          method: post
+          cors:
+            origin: '*'
+            headers:
+              - Content-Type
+              - Authorization             

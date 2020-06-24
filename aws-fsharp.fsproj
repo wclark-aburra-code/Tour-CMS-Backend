@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>FsharpHandlers</AssemblyName>
+    <PackageId>aws-fsharp</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Json.fs" />
+    <Compile Include="Cms.fs" />
+    <!-- Compile Include="Routing.fs" / -->
+    <!-- we don't need it for now, that's on hold-->
+    <Compile Include="Handler.fs" />
+    
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Amazon.Lambda.Core" Version="1.0.0" />
+    <PackageReference Include="Amazon.Lambda.Serialization.Json" Version="1.3.0" />
+    <PackageReference Include="Amazon.Lambda.APIGatewayEvents" Version="1.2.0" />
+<!-- PackageReference Include="AntiXSS" Version="4.3.0" / -->
+    <PackageReference Include="AntiXSS" Version="4.3.0" />
+    <PackageReference Include="AWSSDK.S3" Version="3.3.110.67" />
+    <PackageReference Include="FSharp.AWS.DynamoDB" Version="0.8.0-beta" />
+    <PackageReference Include="HtmlSanitizer" Version="5.0.319" />
+    <PackageReference Include="jose-jwt" Version="2.5.0" />
+    <PackageReference Include="FSharp.Data" Version="3.3.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Amazon.Lambda.Tools" Version="2.2.0" />
+  </ItemGroup>
+
+</Project>

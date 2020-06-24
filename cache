@@ -1,0 +1,2893 @@
+sers/usuario/wpractice/sls/myService/stdin(35,3): error FS0752: The operator 'expr.[idx]' has been used on an object of indeterminate type based on information prior to this program point. Consider adding further type constraints
+
+> let validateStr (req: Map<string,string>, res: Map()                                            
+
+  let validateStr (req: Map<string,string>, res: Map()
+  --------------------------------------------------^
+
+/Users/usuario/wpractice/sls/myService/stdin(36,51): error FS0010: Unexpected symbol '(' in pattern. Expected ')' or other token.
+
+- ;;                                                  
+> let validateStr (req: Map<string,string>, res: Map<string,string>, nxt) =
+- ;;
+
+  ;;
+  ^^
+
+/Users/usuario/wpractice/sls/myService/stdin(39,1): warning FS0058: Possible incorrect indentation: this token is offside of context started at position (38:1). Try indenting this token further or using standard formatting conventions.
+
+
+  ;;
+  ^^
+
+/Users/usuario/wpractice/sls/myService/stdin(39,1): warning FS0058: Possible incorrect indentation: this token is offside of context started at position (38:1). Try indenting this token further or using standard formatting conventions.
+
+
+  ;;
+  ^^
+
+/Users/usuario/wpractice/sls/myService/stdin(39,1): error FS0010: Incomplete structured construct at or before this point in binding
+
+> ;;
+> let validateKeys (req: Map<string,string>, res: Map<string,string>, nxt) =
+- ;;                       
+
+  ;;
+  ^^
+
+/Users/usuario/wpractice/sls/myService/stdin(42,1): warning FS0058: Possible incorrect indentation: this token is offside of context started at position (41:1). Try indenting this token further or using standard formatting conventions.
+
+
+  ;;
+  ^^
+
+/Users/usuario/wpractice/sls/myService/stdin(42,1): warning FS0058: Possible incorrect indentation: this token is offside of context started at position (41:1). Try indenting this token further or using standard formatting conventions.
+
+
+  ;;
+  ^^
+
+/Users/usuario/wpractice/sls/myService/stdin(42,1): error FS0010: Incomplete structured construct at or before this point in binding
+
+> let validateKeys (req: (Map<string,string>, string list), res: (Map<string,string>, string list), nxt) =
+
+  let validateKeys (req: (Map<string,string>, string list), res: (Map<string,string>, string list), nxt) =
+  --------------------------------------------------------^
+
+/Users/usuario/wpractice/sls/myService/stdin(43,57): error FS0010: Unexpected symbol ',' in pattern
+
+- let validateKeys req: (Map<string,string>, string list), res: (Map<string,string>, string list), nxt =  
+
+  let validateKeys req: (Map<string,string>, string list), res: (Map<string,string>, string list), nxt =
+  ^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(44,1): warning FS0058: Possible incorrect indentation: this token is offside of context started at position (43:1). Try indenting this token further or using standard formatting conventions.
+
+
+  let validateKeys req: (Map<string,string>, string list), res: (Map<string,string>, string list), nxt =
+  ^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(44,1): warning FS0058: Possible incorrect indentation: this token is offside of context started at position (43:1). Try indenting this token further or using standard formatting conventions.
+
+- ;;                                                                                                      
+
+  ;;
+  ^^
+
+/Users/usuario/wpractice/sls/myService/stdin(45,1): warning FS0058: Possible incorrect indentation: this token is offside of context started at position (44:1). Try indenting this token further or using standard formatting conventions.
+
+
+  ;;
+  ^^
+
+/Users/usuario/wpractice/sls/myService/stdin(45,1): warning FS0058: Possible incorrect indentation: this token is offside of context started at position (44:1). Try indenting this token further or using standard formatting conventions.
+
+> let validateKeys req: (Map<string,string>, string list), res: (Map<string,string>, string list), nxt =
+
+  let validateKeys req: (Map<string,string>, string list), res: (Map<string,string>, string list), nxt =
+  -------------------------------------------------------^
+
+/Users/usuario/wpractice/sls/myService/stdin(46,56): error FS0010: Unexpected symbol ',' in binding
+
+- ;;
+
+  ;;
+  ^^
+
+/Users/usuario/wpractice/sls/myService/stdin(47,1): warning FS0058: Possible incorrect indentation: this token is offside of context started at position (46:1). Try indenting this token further or using standard formatting conventions.
+
+
+  ;;
+  ^^
+
+/Users/usuario/wpractice/sls/myService/stdin(47,1): warning FS0058: Possible incorrect indentation: this token is offside of context started at position (46:1). Try indenting this token further or using standard formatting conventions.
+
+> let validateKeys req: (Map<string,string>), res: (Map<string,string>), nxt =                          
+
+  let validateKeys req: (Map<string,string>), res: (Map<string,string>), nxt =
+  ------------------------------------------^
+
+/Users/usuario/wpractice/sls/myService/stdin(48,43): error FS0010: Unexpected symbol ',' in binding. Expected '=' or other token.
+
+- ;;                                                                          
+
+  ;;
+  ^^
+
+/Users/usuario/wpractice/sls/myService/stdin(49,1): warning FS0058: Possible incorrect indentation: this token is offside of context started at position (48:1). Try indenting this token further or using standard formatting conventions.
+
+
+  ;;
+  ^^
+
+/Users/usuario/wpractice/sls/myService/stdin(49,1): warning FS0058: Possible incorrect indentation: this token is offside of context started at position (48:1). Try indenting this token further or using standard formatting conventions.
+
+> let validateKeys req: Map<string,string>, res: Map<string,string>, nxt =    
+
+  let validateKeys req: Map<string,string>, res: Map<string,string>, nxt =
+  ----------------------------------------^
+
+/Users/usuario/wpractice/sls/myService/stdin(50,41): error FS0010: Unexpected symbol ',' in binding. Expected '=' or other token.
+
+- ;;
+
+  ;;
+  ^^
+
+/Users/usuario/wpractice/sls/myService/stdin(51,1): warning FS0058: Possible incorrect indentation: this token is offside of context started at position (50:1). Try indenting this token further or using standard formatting conventions.
+
+
+  ;;
+  ^^
+
+/Users/usuario/wpractice/sls/myService/stdin(51,1): warning FS0058: Possible incorrect indentation: this token is offside of context started at position (50:1). Try indenting this token further or using standard formatting conventions.
+
+> let validateKeys (req: Map<string,string>, res: Map<string,string>, nxt) =
+-   ;;
+
+    ;;
+  --^^
+
+/Users/usuario/wpractice/sls/myService/stdin(53,3): error FS0010: Incomplete structured construct at or before this point in binding
+
+> let entities =
+-    Map.empty.
+-       Add("&", "&amp;").
+-       Add(".", "&#46;").
+-       Add("+", "&#43;").
+-       Add(";", "&#59;");;
+val entities : Map<string,string> =
+  map [("&", "&amp;"); ("+", "&#43;"); (".", "&#46;"); (";", "&#59;")]
+
+> entities |> Map.toSeq |> Seq.map fst;;
+val it : seq<string> = seq ["&"; "+"; "."; ";"]
+
+> let keyz mapa = mapa |> Map.toSeq |> Seq.map fst;;
+val keyz : mapa:Map<'a,'b> -> seq<'a> when 'a : comparison
+
+> (keyz entities);;
+val it : seq<string> = seq ["&"; "+"; "."; ";"]
+
+> let validateKeys (req: Map<string,string>, res: Map<string,string>, nxt) =
+-   let myKeyz = (keyz req)
+-   ;;
+
+    let myKeyz = (keyz req)
+  --^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(64,3): error FS0588: The block following this 'let' is unfinished. Every code block is an expression and must have a result. 'let' cannot be the final code element in a block. Consider giving this block an explicit result.
+
+> ;;
+> let entities =
+-    Map.empty.
+-       Add("&", "&amp;").
+-       Add(".", "&#46;").
+-       Add("+", "&#43;").
+-       Add(";", "&#59;");;
+val entities : Map<string,string> =
+  map [("&", "&amp;"); ("+", "&#43;"); (".", "&#46;"); (";", "&#59;")]
+
+> open System
+- open System.Text.RegularExpressions;;
+> let subs str rx entityMap =
+-     Regex.Replace(str, rx,
+-         (fun (x : Match) -> entityMap.[x.Value] ),
+-         RegexOptions.IgnoreCase) ;;
+
+          (fun (x : Match) -> entityMap.[x.Value] ),
+  ----------------------------^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(77,29): error FS0752: The operator 'expr.[idx]' has been used on an object of indeterminate type based on information prior to this program point. Consider adding further type constraints
+
+> let subs (str, rx, entityMap: Map<string, string>) =
+-     Regex.Replace(str, rx,
+-         (fun (x : Match) -> entityMap.[x.Value] ),
+-         RegexOptions.IgnoreCase) ;;
+val subs : str:string * rx:string * entityMap:Map<string,string> -> string
+
+> type userInput = Valid of string | Invalid;;
+type userInput =
+  | Valid of string
+  | Invalid
+
+> let (|StringLength|_|) s = 
+-     match ((String.length s) < 50) with
+-     | true -> Some(s)
+-     | false -> None;;
+val ( |StringLength|_| ) : s:string -> string option
+
+> let unsafeEntities = ["NOT_NULL"; "NOT_CONTAINS"; "BEGINS_WITH"];;
+val unsafeEntities : string list = ["NOT_NULL"; "NOT_CONTAINS"; "BEGINS_WITH"]
+
+> let preedString s = 
+-     match (List.contains s unsafeEntities) with
+-     | true -> Invalid
+-     | false -> Valid(s);;
+val preedString : s:string -> userInput
+
+> let (|StringValidate|) s = 
+-     match ((String.length s) < 50) with
+-     | true -> Valid(s)
+-     | false -> Invalid;;
+val ( |StringValidate| ) : s:string -> userInput
+
+> let subs (str, rx, entityMap: Map<string, string>) =
+-     Regex.Replace(str, rx,
+-         (fun (x : Match) -> entityMap.[x.Value] ),
+-         RegexOptions.IgnoreCase) ;;
+val subs : str:string * rx:string * entityMap:Map<string,string> -> string
+
+> (subs "yo? yo", "(\.|\+|&|;)", entities);;
+
+  (subs "yo? yo", "(\.|\+|&|;)", entities);;
+  ------^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(101,7): error FS0001: This expression was expected to have type
+    'string * string * Map<string,string>'    
+but here has type
+    'string'    
+
+> (subs "yo? yo" "(\.|\+|&|;)" entities);;  
+
+  (subs "yo? yo" "(\.|\+|&|;)" entities);;
+  -^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(102,2): error FS0003: This value is not a function and cannot be applied.
+
+> subs("yo? yo", "(\.|\+|&|;)", entities);;
+val it : string = "yo? yo"
+
+> subs("yo? ....yo", "(\.|\+|&|;)", entities);;
+val it : string = "yo? &#46;&#46;&#46;&#46;yo"
+
+> (preedString subs("yo? ....yo", "(\.|\+|&|;)", entities));;
+
+  (preedString subs("yo? ....yo", "(\.|\+|&|;)", entities));;
+  -------------^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(105,14): error FS0597: Successive arguments should be separated by spaces or tupled, and arguments involving function or method applications should be parenthesized
+
+> subs("yo? ....yo", "(\.|\+|&|;)", entities);;              
+val it : string = "yo? &#46;&#46;&#46;&#46;yo"
+
+> subs("yo? ....yo", "(\.|\+|&|;)", entities) |> preedString;;
+val it : userInput = Valid "yo? &#46;&#46;&#46;&#46;yo"
+
+> let validationAccepting transformFn =
+- (fun s  -> match s with
+
+  (fun s  -> match s with
+  ^
+
+/Users/usuario/wpractice/sls/myService/stdin(109,1): warning FS0058: Possible incorrect indentation: this token is offside of context started at position (108:1). Try indenting this token further or using standard formatting conventions.
+
+
+  (fun s  -> match s with
+  ^
+
+/Users/usuario/wpractice/sls/myService/stdin(109,1): warning FS0058: Possible incorrect indentation: this token is offside of context started at position (108:1). Try indenting this token further or using standard formatting conventions.
+
+- ;;
+
+  ;;
+  ^^
+
+/Users/usuario/wpractice/sls/myService/stdin(110,1): warning FS0058: Possible incorrect indentation: this token is offside of context started at position (109:12). Try indenting this token further or using standard formatting conventions.
+
+
+  ;;
+  ^^
+
+/Users/usuario/wpractice/sls/myService/stdin(110,1): error FS0010: Incomplete structured construct at or before this point in expression
+
+> let validationAccepting transformFn =
+-   (fun s ->
+-     match s with
+-      
+-     | Invalid -> Invalid
+-     | Valid(strr) -> transformFn(strr));;
+val validationAccepting :
+  transformFn:(string -> userInput) -> s:userInput -> userInput
+
+> type userInput = Valid of string | Invalid of string;; // err msg 
+type userInput =
+  | Valid of string
+  | Invalid of string
+
+> let validationAccepting transformFn =                            
+-   (fun s ->                                                      
+-     match s with                                                 
+-     | Valid(strr) -> transformFn(strr));;                        
+
+      match s with
+  ----------^
+
+/Users/usuario/wpractice/sls/myService/stdin(120,11): warning FS0025: Incomplete pattern matches on this expression. For example, the value 'Invalid (_)' may indicate a case not covered by the pattern(s).
+
+val validationAccepting : transformFn:(string -> 'a) -> s:userInput -> 'a
+
+> let validationAccepting transformFn = 
+-   (fun preed ->    
+-     match preed with
+-     | Invalid(s) -> Invalid(s)
+-     | Valid(strr) -> transformFn(strr));;
+val validationAccepting :
+  transformFn:(string -> userInput) -> preed:userInput -> userInput
+
+> we validate on length and illegalchars;;
+
+  we validate on length and illegalchars;;
+  ----------------------^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(127,23): error FS0010: Unexpected keyword 'and' in interaction. Expected incomplete structured construct at or before this point, ';', ';;' or other token.
+
+> // we validate on length and illegal chars, thats one middleware
+- ;;
+> // we transform string, unwrapping from "valid", then wrap our result in "valid";;
+- ;;
+> // json later... once we get dto ish;;
+- ;;
+> let validateKeys (req: Map<string,string>, res: Map<string,string>, nxt) =
+-   let myKeyz = (keyz req) 
+-   ;;       
+
+    let myKeyz = (keyz req)
+  --^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(135,3): error FS0588: The block following this 'let' is unfinished. Every code block is an expression and must have a result. 'let' cannot be the final code element in a block. Consider giving this block an explicit result.
+
+> (keyz entitites);;
+
+  (keyz entitites);;
+  ------^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(137,7): error FS0039: The value or constructor 'entitites' is not defined. Maybe you want one of the following:
+   entities
+
+> (keyz entities);; 
+val it : seq<string> = seq ["&"; "+"; "."; ";"]
+
+> seq ["trgrg"; "dfsddfs"] ;;
+val it : seq<string> = ["trgrg"; "dfsddfs"]
+
+> ["trgrg"; "dfsddfs"] |> Seq.map (fun x -> subs(x, "(\.|\+|&|;)", entities) ) ;;           
+val it : seq<string> = seq ["trgrg"; "dfsddfs"]
+
+> ["t...rgrg"; "dfsddfs"] |> Seq.map (fun x -> subs(x, "(\.|\+|&|;)", entities) ) ;;
+val it : seq<string> = seq ["t&#46;&#46;&#46;rgrg"; "dfsddfs"]
+
+> // we assume that's valid... good, that's our middleware;;
+- ;;
+> let transformEntities (req: Map<string,string>, res: Map<string,string>, nxt) =
+-   let myKeyz = (keyz req)
+-   keyz |> Seq.map (fun x -> subs(x, "(\.|\+|&|;)", entities) ) ;;
+
+    keyz |> Seq.map (fun x -> subs(x, "(\.|\+|&|;)", entities) ) ;;
+  ----------^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(146,11): error FS0001: The type 'Map<'b,'c> -> seq<'b>' is not compatible with the type 'seq<'a>'
+
+> let transformEntities (req: Map<string,string>, res: Map<string,string>, nxt) =
+-   let myKeyz = (keyz req)                                                      
+-   myKeyz |> Seq.map (fun x -> subs(x, "(\.|\+|&|;)", entities) ) ;;            
+val transformEntities :
+  req:Map<string,string> * res:Map<string,string> * nxt:'a -> seq<string>
+
+> let transformEntities (req: Map<string,string>, res: Map<string,string>, nxt) =
+-   let myKeyz = (keyz req)                                                      
+-   nxt(myKeyz |> Seq.map (fun x -> subs(x, "(\.|\+|&|;)", entities) )) ;;       
+val transformEntities :
+  req:Map<string,string> * res:Map<string,string> * nxt:(seq<string> -> 'a) ->
+    'a
+
+> let transformEntities (req: Map<string,string>, res: Map<string,string>, nxt) =
+-   let myKeyz = (keyz req)                                                      
+-   nxt( myKeyz |> Seq.map (fun x -> subs(x, "(\.|\+|&|;)", entities) ), res  ) ;; 
+val transformEntities :
+  req:Map<string,string> * res:Map<string,string> *
+  nxt:(seq<string> * Map<string,string> -> 'a) -> 'a
+
+> // so composed its
+- // validateEntities(req, res,  (fun (req: Map<string,string>, res: Map<string,string>, nxt  ) ->  transformEntities (req: Map<string,str- ing>, res: Map<string,string>, nxt  ))
+- ;;
+> let transformEntities req: Map<string,string> =
+-   let myKeyz = (keyz req)
+-    myKeyz |> Seq.map (fun x -> subs(x, "(\.|\+|&|;)", entities) ), res  ) ;;
+
+     myKeyz |> Seq.map (fun x -> subs(x, "(\.|\+|&|;)", entities) ), res  ) ;;
+  ---^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(161,4): error FS0010: Unexpected identifier in binding. Expected incomplete structured construct at or before this point or other token.
+
+> let recompose tupleSeq = 
+-   match tupleSeq with     
+-   \;; 
+
+    \;;
+  --^
+
+/Users/usuario/wpractice/sls/myService/stdin(164,3): error FS0010: Unexpected character '\' in expression
+
+> let recompose tupleSeq acc =
+-   match tupleSeq with 
+-   | [] => acc
+
+    | [] => acc
+  -------^^
+
+/Users/usuario/wpractice/sls/myService/stdin(167,8): error FS0010: Unexpected infix operator in pattern matching. Expected '->' or other token.
+
+- let recompose tupleSeq acc =
+-   match tupleSeq with       
+-   | [] -> acc               
+-   | h :: t -> (recompose t acc);;
+> ;;
+> let recompose(tupleSeq, acc: Map<string,string> ) =
+-   match tupleSeq with
+-   | [] -> acc
+-   | (k,v) :: t -> (recompose t (acc.Add(k,v)));;
+
+    | (k,v) :: t -> (recompose t (acc.Add(k,v)));;
+  -------------------^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(176,20): error FS0039: The value or constructor 'recompose' is not defined.
+
+> letrec recompose(tupleSeq, acc: Map<string,string> ) =
+
+  letrec recompose(tupleSeq, acc: Map<string,string> ) =
+  -------^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(177,8): error FS0597: Successive arguments should be separated by spaces or tupled, and arguments involving function or method applications should be parenthesized
+
+- let rec recompose(tupleSeq, acc: Map<string,string> ) =
+-   match tupleSeq with
+-   | [] -> acc
+-   | h :: t -> (recompose t acc);;
+> let rec recompose(tupleSeq, acc: Map<string,string> ) =
+-   match tupleSeq with
+-   | [] -> acc
+-   | h :: t -> (recompose t acc);;
+
+    | h :: t -> (recompose t acc);;
+  ---------------^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(185,16): error FS0003: This value is not a function and cannot be applied.
+
+> let rec recompose(tupleSeq, acc: Map<string,string> ) =
+-   match tupleSeq with                                  
+-   | [] -> acc                                          
+-   | h :: t -> recompose(acc.Add(k,v));;                        
+
+    | h :: t -> recompose(acc.Add(k,v));;
+  --------------------------------^
+
+/Users/usuario/wpractice/sls/myService/stdin(189,33): error FS0039: The value or constructor 'k' is not defined. Maybe you want one of the following:
+   Ok
+   h
+   t
+
+> ;;
+> let rec recompose(tupleSeq, acc: Map<string,string> ) =
+-   match tupleSeq with
+-   | [] -> acc
+-   | (k,v) :: t -> recompose(acc.Add(k,v));;
+
+    | (k,v) :: t -> recompose(acc.Add(k,v));;
+  ----------------------------^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(194,29): error FS0001: This expression was expected to have type
+    '(string * string) list * Map<string,string>'    
+but here has type
+    'Map<string,string>'    
+
+> let rec recompose(tupleSeq, acc: Map<string,string> ) =
+-   match tupleSeq with
+-   | [] -> acc
+-   | (k,v) :: t -> recompose(t, acc.Add(k,v));;
+val recompose :
+  tupleSeq:(string * string) list * acc:Map<string,string> ->
+    Map<string,string>
+
+> let transformEntities (req: Map<string,string>) =
+-   let myKeyz = (keyz req)
+-   myKeyz |> Seq.map (fun x -> (x, subs(req.[x], "(\.|\+|&|;)", entities)));;
+val transformEntities : req:Map<string,string> -> seq<string * string>
+
+> type middlewareResult = Siga of Map<string,string> | NoSiga of string;;
+type middlewareResult =
+  | Siga of Map<string,string>
+  | NoSiga of string
+
+> let sub1 str =
+-     Regex.Replace(str, "(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)",
+-         (fun (x : Match) -> dynamoEntities.[x.Value] ),
+-         RegexOptions.IgnoreCase) ;; 
+
+          (fun (x : Match) -> dynamoEntities.[x.Value] ),
+  ----------------------------^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(205,29): error FS0039: The value or constructor 'dynamoEntities' is not defined. Maybe you want one of the following:
+   Dynamic
+
+> let dynamoEntities =
+-    Map.empty.
+-       Add("EQ", "&#69;&#81;").
+-       Add("NE", "&#78;&#69;").
+-       Add("IN", "&#73;&#78;").
+-       Add("LE", "&#76;&#69;").
+-       Add("LT", "&#76;&#84;").
+-       Add("GE", "&#71;&#69;").
+-       Add("GT", "&#71;&#84;").
+-       Add("BETWEEN", "&#66;&#69;&#84;&#87;&#69;&#69;&#78;").
+-       Add("NULL", "&#78;&#85;&#76;&#76;").
+-       Add("CONTAINS", "&#67;&#79;&#78;&#84;&#65;&#73;&#78;&#83;");;
+val dynamoEntities : Map<string,string> =
+  map
+    [("BETWEEN", "&#66;&#69;&#84;&#87;&#69;&#69;&#78;");
+     ("CONTAINS", "&#67;&#79;&#78;&#84;&#65;&#73;&#78;&#83;");
+     ("EQ", "&#69;&#81;"); ("GE", "&#71;&#69;"); ("GT", "&#71;&#84;");
+     ("IN", "&#73;&#78;"); ("LE", "&#76;&#69;"); ("LT", "&#76;&#84;");
+     ("NE", "&#78;&#69;"); ...]
+
+> entities;;
+val it : Map<string,string> =
+  map [("&", "&amp;"); ("+", "&#43;"); (".", "&#46;"); (";", "&#59;")]
+
+> subs("BETWEENEE","(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)", dynamoEntities);;
+val it : string = "&#66;&#69;&#84;&#87;&#69;&#69;&#78;EE"
+
+> let noSigaAccepting middlewareFn =                                                
+-   (fun preed ->
+-     match preed with
+-     | NoSiga(x) -> NoSiga(x)
+-     | Siga(y) -> (middlewareFn y));;
+val noSigaAccepting :
+  middlewareFn:(Map<string,string> -> middlewareResult) ->
+    preed:middlewareResult -> middlewareResult
+
+>  let subs (rx, entityMap: Map<string, string>, str) =
+-      Regex.Replace(str, rx,
+-          (fun (x : Match) -> entityMap.[x.Value] ),
+-          RegexOptions.IgnoreCase) ;;     
+val subs : rx:string * entityMap:Map<string,string> * str:string -> string
+
+> "BETWEEN ME ... and you!" |> subs("(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)", dynamoEntities) |> subs("(\.|\+|&|;)", entities);;
+
+  "BETWEEN ME ... and you!" |> subs("(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)", dynamoEntities) |> subs("(\.|\+|&|;)", entities);;
+  -----------------------------^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(230,30): error FS0001: This expression was expected to have type
+    'string -> 'a'    
+but here has type
+    'string'    
+
+> subs("(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)", dynamoEntities);;                                                              
+
+  subs("(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)", dynamoEntities);;
+  -----^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(231,6): error FS0001: Type mismatch. Expecting a
+    'string * Map<string,string> * string'    
+but given a
+    'string * Map<string,string>'    
+The tuples have differing lengths of 3 and 2
+
+> subs("(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)", dynamoEntities);;
+
+  subs("(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)", dynamoEntities);;
+  -----^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(232,6): error FS0001: Type mismatch. Expecting a
+    'string * Map<string,string> * string'    
+but given a
+    'string * Map<string,string>'    
+The tuples have differing lengths of 3 and 2
+
+>  let subs (rx, entityMap: Map<string, string>, str) =                                                                               
+-      Regex.Replace(str, rx,
+-          (fun (x : Match) -> entityMap.[x.Value] ),
+- ;;open Amazon.Lambda.Core;;                        
+
+  ;;open Amazon.Lambda.Core;;
+  ^^
+
+/Users/usuario/wpractice/sls/myService/stdin(236,1): warning FS0058: Possible incorrect indentation: this token is offside of context started at position (235:10). Try indenting this token further or using standard formatting conventions.
+
+
+           (fun (x : Match) -> entityMap.[x.Value] ),
+  --------------------------------------------------^
+
+/Users/usuario/wpractice/sls/myService/stdin(235,51): error FS3100: Expected an expression after this point
+
+> 
+  ;;open Amazon.Lambda.Core;;
+  -------^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(236,8): error FS0039: The namespace or module 'Amazon' is not defined.
+
+>  let subs rx entityMap: Map<string, string> str =
+-      Regex.Replace(str, rx,
+-          (fun (x : Match) -> entityMap.[x.Value] ),
+-          RegexOptions.IgnoreCase) ;; 
+
+   let subs rx entityMap: Map<string, string> str =
+  --------------------------------------------^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(237,45): error FS0039: The type 'str' is not defined. Maybe you want one of the following:
+   String
+   string
+
+>  let subs rx (entityMap: Map<string, string>) str =
+-      Regex.Replace(str, rx,
+-          (fun (x : Match) -> entityMap.[x.Value] ),
+-          RegexOptions.IgnoreCase) ;; 
+val subs : rx:string -> entityMap:Map<string,string> -> str:string -> string
+
+> subs("(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)", dynamoEntities);;
+
+  subs("(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)", dynamoEntities);;
+  -----^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(245,6): error FS0001: This expression was expected to have type
+    'string'    
+but here has type
+    ''a * 'b'    
+
+> subs "(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)" dynamoEntities;;  
+val it : (string -> string) = <fun:it@246-3>
+
+> (subs "(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)" dynamoEntities);;
+val it : (string -> string) = <fun:it@247-4>
+
+> let function3 (x : 'a) (y : 'b) =;; (EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)" dynamoEntities) |> (subs "(\.|\+|&|;)" entities);;
+- Interruptring =
+  let function3 (x : 'a) (y : 'b) =;;&#59;&amp;#87&#59;&amp;#69&#59;&amp;#69&#59;&amp;#78&#59; ME &#46;&#46;&#46; and you!"
+  ---------------------------------^^
+> let transformKeyz ()
+/Users/usuario/wpractice/sls/myService/stdin(249,34): error FS0010: Incomplete structured construct at or before this point in binding
+
+> 
+- 
+- ;;
+> let transformKeys (mapa : Map<string,string>) =;;
+
+  let transformKeys (mapa : Map<string,string>) =;;
+  -----------------------------------------------^^
+
+/Users/usuario/wpractice/sls/myService/stdin(253,48): error FS0010: Incomplete structured construct at or before this point in binding
+
+> let transformEntities (req: Map<string,string>) =
+- -   let myKeyz = (keyz req)
+
+  -   let myKeyz = (keyz req)
+  ^
+
+/Users/usuario/wpractice/sls/myService/stdin(255,1): warning FS0058: Possible incorrect indentation: this token is offside of context started at position (254:1). Try indenting this token further or using standard formatting conventions.
+
+
+  -   let myKeyz = (keyz req)
+  ^
+
+/Users/usuario/wpractice/sls/myService/stdin(255,1): warning FS0058: Possible incorrect indentation: this token is offside of context started at position (254:1). Try indenting this token further or using standard formatting conventions.
+
+
+  -   let myKeyz = (keyz req)
+  ----^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(255,5): error FS0010: Unexpected keyword 'let' or 'use' in expression
+
+- ;;                                                                            
+> let transformEntities (req: Map<string,string>) =
+-   let myKeyz = (keyz req)
+-   myKeyz |> Seq.map (fun x -> (x, x |> subs("(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)", dynamoEntities) |> subs("(\.|\+|&|;)", entit- ies)));;           
+
+    myKeyz |> Seq.map (fun x -> (x, x |> subs("(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)", dynamoEntities) |> subs("(\.|\+|&|;)", entities)));;
+  ---------------------------------------^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(259,40): error FS0001: Type mismatch. Expecting a
+    'string -> 'a'    
+but given a
+    'Map<string,string> -> string -> string'    
+The type 'string' does not match the type 'Map<string,string>'
+
+> |> subs("(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)", dynamoEntities) |> subs("(\.|\+|&|;)", entities)
+
+  |> subs("(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)", dynamoEntities) |> subs("(\.|\+|&|;)", entities)
+  ^^
+
+/Users/usuario/wpractice/sls/myService/stdin(260,1): error FS0010: Unexpected infix operator in interaction
+
+- ;;
+> let transformEntities (req: Map<string,string>) =
+-   let myKeyz = (keyz req)
+-   myKeyz |> Seq.map (fun x -> (x, req.[x] |> subs("(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)", dynamoEntities) |> subs("(\.|\+|&|;)",-  entities)));;
+
+    myKeyz |> Seq.map (fun x -> (x, req.[x] |> subs("(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)", dynamoEntities) |> subs("(\.|\+|&|;)", entities)));;
+  ---------------------------------------------^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(264,46): error FS0001: Type mismatch. Expecting a
+    'string -> 'a'    
+but given a
+    'Map<string,string> -> string -> string'    
+The type 'string' does not match the type 'Map<string,string>'
+
+> "BETWEEN ME ... and you!" |> subs("(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)", dynamoEntities) |> subs("(\.|\+|&|;)", entities);;
+
+  "BETWEEN ME ... and you!" |> subs("(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)", dynamoEntities) |> subs("(\.|\+|&|;)", entities);;
+  -----------------------------^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(265,30): error FS0001: Type mismatch. Expecting a
+    'string -> 'a'    
+but given a
+    'Map<string,string> -> string -> string'    
+The type 'string' does not match the type 'Map<string,string>'
+
+> (subs "(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)" dynamoEntities);;
+val it : (string -> string) = <fun:it@266-5>
+
+> subs("(\.|\+|&|;)", entities);;
+
+  subs("(\.|\+|&|;)", entities);;
+  -----^^^^^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(267,6): error FS0001: This expression was expected to have type
+    'string'    
+but here has type
+    ''a * 'b'    
+
+> let transformEntities (req: Map<string,string>) =                                                                                   
+-   let myKeyz = (keyz req)                                                                                                               -   myKeyz |> Seq.map (fun x -> (x, req.[x] |> (subs "(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)" dynamoEntities) |> (subs "(\.|\+|&|;)"-  entities)));;
+val transformEntities : req:Map<string,string> -> seq<string * string>
+
+> let transformFull (req: Map<string,string>) =
+-   (transformEntities req) |> recompose;;
+
+    (transformEntities req) |> recompose;;
+  -----------------------------^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(272,30): error FS0001: Type mismatch. Expecting a
+    'seq<string * string> -> 'a'    
+but given a
+    '(string * string) list * Map<string,string> -> Map<string,string>'    
+The type 'seq<string * string>' does not match the type '(string * string) list * Map<string,string>'
+
+> let rec recompose (acc: Map<string,string> ) tupleSeq =
+-    match tupleSeq with
+-    | [] -> acc
+-    | (k,v) :: t -> recompose(t, acc.Add(k,v));;
+
+     | (k,v) :: t -> recompose(t, acc.Add(k,v));;
+  -------------------^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(276,20): error FS0001: All branches of a pattern match expression must return values of the same type as the first branch, which here is 'Map<string,string>'. This branch returns a value of type '('a * 'b) list -> Map<string,string>'.
+
+> let rec recompose (acc: Map<string,string> ) tupleSeq =
+-    match tupleSeq with
+-    | (k,v) :: t -> recompose(t, acc.Add(k,v))
+-       | [] -> acc;;
+
+     | (k,v) :: t -> recompose(t, acc.Add(k,v))
+  -------------------^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(279,20): error FS0001: Type mismatch. Expecting a
+    ''a'    
+but given a
+    '('b * 'c) list -> 'a'    
+The types ''a' and '('b * 'c) list -> 'a' cannot be unified.
+
+> let rec recompose (acc: Map<string,string>) tupleSeq =
+-     match tupleSeq with
+-     | [] -> acc
+-     | (k,v) :: t -> recompose(t, acc.Add(k,v));;
+
+      | (k,v) :: t -> recompose(t, acc.Add(k,v));;
+  --------------------^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(284,21): error FS0001: All branches of a pattern match expression must return values of the same type as the first branch, which here is 'Map<string,string>'. This branch returns a value of type '('a * 'b) list -> Map<string,string>'.
+
+> let rec recompose (acc: Map<string,string>) tupleSeq =
+-     match tupleSeq with
+-     | [] -> acc
+-     | (k,v) :: t -> (recompose t acc.Add(k,v));;
+
+      | (k,v) :: t -> (recompose t acc.Add(k,v));;
+  ---------------------------------^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(288,34): error FS0597: Successive arguments should be separated by spaces or tupled, and arguments involving function or method applications should be parenthesized
+
+> let rec recompose (acc: Map<string,string>) tupleSeq =
+-     match tupleSeq with
+-     | [] -> acc
+-     | (k,v) :: t -> (recompose t (acc.Add(k,v)));;
+
+      | (k,v) :: t -> (recompose t (acc.Add(k,v)));;
+  -------------------------------^
+
+/Users/usuario/wpractice/sls/myService/stdin(292,32): error FS0001: This expression was expected to have type
+    'Map<string,string>'    
+but here has type
+    '('a * 'b) list'    
+
+> let rec recompose (acc: Map<string,string>) tupleSeq =
+-     match tupleSeq with
+-     | [] -> acc
+-     | (k,v) :: t -> (recompose (acc.Add(k,v)) t) ;;
+val recompose :
+  acc:Map<string,string> ->
+    tupleSeq:(string * string) list -> Map<string,string>
+
+> let transformFull (req: Map<string,string>) =
+-   (transformEntities req) |> (recompose Map.empty);;
+
+    (transformEntities req) |> (recompose Map.empty);;
+  ------------------------------^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(298,31): error FS0001: Type mismatch. Expecting a
+    'seq<string * string> -> 'a'    
+but given a
+    '(string * string) list -> Map<string,string>'    
+The type 'seq<string * string>' does not match the type '(string * string) list'
+
+> let transformEntities (req: Map<string,string>) = 
+-    let myKeyz = (keyz req)   
+-    myKeyz |> List.map (fun x -> (x, req.[x] |> (subs "(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)" dynamoEntities) |> (subs "(\.|\+|&|;- )"-  entities)));;    
+
+     myKeyz |> List.map (fun x -> (x, req.[x] |> (subs "(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)" dynamoEntities) |> (subs "(\.|\+|&|;)"-  entities)));;    
+  -------------^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(301,14): error FS0001: Type mismatch. Expecting a
+    'seq<string> -> 'a'    
+but given a
+    ''b list -> 'c list'    
+The type 'seq<string>' does not match the type ''a list'
+
+> 
+- ;;
+> let rec recompose (acc: Map<string,string>) tupleSeq =
+-     match (Seq.toList tupleSeq) with
+-     | [] -> acc
+-     | (k,v) :: t -> (recompose (acc.Add(k,v)) t) ;;
+val recompose :
+  acc:Map<string,string> ->
+    tupleSeq:(string * string) list -> Map<string,string>
+
+> let transformEntities (req: Map<string,string>) = 
+-   let myKeyz = (keyz req)
+-   myKeyz |> List.map (fun x -> (x, req.[x] |> (subs "(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)" dynamoEntities) |> (subs "(\.|\+|&|;)- "-  entities)));;
+
+    myKeyz |> List.map (fun x -> (x, req.[x] |> (subs "(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)" dynamoEntities) |> (subs "(\.|\+|&|;)"-  entities)));;
+  ------------^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(310,13): error FS0001: Type mismatch. Expecting a
+    'seq<string> -> 'a'    
+but given a
+    ''b list -> 'c list'    
+The type 'seq<string>' does not match the type ''a list'
+
+> let transformEntities (req: Map<string,string>) = 
+-    let myKeyz = (keyz req)   
+-    myKeyz |> Seq.map (fun x -> (x, req.[x] |> (subs "(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)" dynamoEntities) |> (subs "(\.|\+|&|;)- "-  entities)));;
+
+     myKeyz |> Seq.map (fun x -> (x, req.[x] |> (subs "(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)" dynamoEntities) |> (subs "(\.|\+|&|;)"-  entities)));;
+  --------------------------------------------------------------------------------------------------------------------------------------------^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(313,141): error FS0001: Expecting a type supporting the operator '-' but given a function type. You may be missing an argument to a function.
+
+> let transformEntities (req: Map<string,string>) = 
+-    let myKeyz = (keyz req)   
+-    myKeyz |> Seq.map (fun x -> (x, req.[x] |> (subs "(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)" dynamoEntities) |> (subs "(\.|\+|&|;)- "  entities)));;    
+val transformEntities : req:Map<string,string> -> seq<string * string>
+
+> let rec recompose (acc: Map<string,string>) tupleSeq =
+-     match (Seq.toList tupleSeq) with
+-     | [] -> acc
+-     | (k,v) :: t -> (recompose (acc.Add(k,v)) t) ;;
+val recompose :
+  acc:Map<string,string> ->
+    tupleSeq:(string * string) list -> Map<string,string>
+
+> let transformFull (r: Map<string, string>) =
+-   (transformEntities req) |> (recompose Map.empty);;
+
+    (transformEntities req) |> (recompose Map.empty);;
+  ---------------------^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(322,22): error FS0039: The value or constructor 'req' is not defined. Maybe you want one of the following:
+   Res
+   ref
+   Ref
+   seq
+   Seq
+
+> let transformFull (r: Map<string, string>) =
+-   (transformEntities r) |> (recompose Map.empty);;  
+
+    (transformEntities r) |> (recompose Map.empty);;
+  ----------------------------^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(324,29): error FS0001: Type mismatch. Expecting a
+    'seq<string * string> -> 'a'    
+but given a
+    '(string * string) list -> Map<string,string>'    
+The type 'seq<string * string>' does not match the type '(string * string) list'
+
+> (recompose Map.empty);;
+val it : ((string * string) list -> Map<string,string>) = <fun:it@325-6>
+
+> let rec recompose (acc: Map<string,string>) tupleSeq =
+-     match (Seq.toList tupleSeq) with
+-     | [] -> acc
+-     | (k,v) :: t -> (recompose (acc.Add(k,v)) t) ;;
+val recompose :
+  acc:Map<string,string> ->
+    tupleSeq:(string * string) list -> Map<string,string>
+
+>  (recompose Map.empty);;
+val it : ((string * string) list -> Map<string,string>) = <fun:it@330-7>
+
+> let transformEntities (req: Map<string,string>) = 
+-    let myKeyz = (keyz req)   
+-    myKeyz |> Seq.map (fun x -> (x, req.[x] |> (subs "(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)" dynamoEntities) |> (subs "(\.|\+|&|;)- "  entities))) |> List.ofSeq;;    
+val transformEntities : req:Map<string,string> -> (string * string) list
+
+> let transformFull (r: Map<string, string>) =
+-   (transformEntities r) |> (recompose Map.empty);;
+val transformFull : r:Map<string,string> -> Map<string,string>
+
+> moooo
+
+
+but given a
+    'Map<string,string> -> string -> string'    
+The type 'string' does not match the type 'Map<string,string>'
+
+> (subs "(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)" dynamoEntities);;
+val it : (string -> string) = <fun:it@266-5>
+
+> subs("(\.|\+|&|;)", entities);;
+
+  subs("(\.|\+|&|;)", entities);;
+  -----^^^^^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(267,6): error FS0001: This expression was expected to have type
+    'string'    
+but here has type
+    ''a * 'b'    
+
+> let transformEntities (req: Map<string,string>) =                                                                                   
+-   let myKeyz = (keyz req)                                                                                                               -   myKeyz |> Seq.map (fun x -> (x, req.[x] |> (subs "(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)" dynamoEntities) |> (subs "(\.|\+|&|;)"-  entities)));;
+val transformEntities : req:Map<string,string> -> seq<string * string>
+
+> let transformFull (req: Map<string,string>) =
+-   (transformEntities req) |> recompose;;
+
+    (transformEntities req) |> recompose;;
+  -----------------------------^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(272,30): error FS0001: Type mismatch. Expecting a
+    'seq<string * string> -> 'a'    
+but given a
+    '(string * string) list * Map<string,string> -> Map<string,string>'    
+The type 'seq<string * string>' does not match the type '(string * string) list * Map<string,string>'
+
+> let rec recompose (acc: Map<string,string> ) tupleSeq =
+-    match tupleSeq with
+-    | [] -> acc
+-    | (k,v) :: t -> recompose(t, acc.Add(k,v));;
+
+     | (k,v) :: t -> recompose(t, acc.Add(k,v));;
+  -------------------^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(276,20): error FS0001: All branches of a pattern match expression must return values of the same type as the first branch, which here is 'Map<string,string>'. This branch returns a value of type '('a * 'b) list -> Map<string,string>'.
+
+> let rec recompose (acc: Map<string,string> ) tupleSeq =
+-    match tupleSeq with
+-    | (k,v) :: t -> recompose(t, acc.Add(k,v))
+-       | [] -> acc;;
+
+     | (k,v) :: t -> recompose(t, acc.Add(k,v))
+  -------------------^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(279,20): error FS0001: Type mismatch. Expecting a
+    ''a'    
+but given a
+    '('b * 'c) list -> 'a'    
+The types ''a' and '('b * 'c) list -> 'a' cannot be unified.
+
+> let rec recompose (acc: Map<string,string>) tupleSeq =
+-     match tupleSeq with
+-     | [] -> acc
+-     | (k,v) :: t -> recompose(t, acc.Add(k,v));;
+
+      | (k,v) :: t -> recompose(t, acc.Add(k,v));;
+  --------------------^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(284,21): error FS0001: All branches of a pattern match expression must return values of the same type as the first branch, which here is 'Map<string,string>'. This branch returns a value of type '('a * 'b) list -> Map<string,string>'.
+
+> let rec recompose (acc: Map<string,string>) tupleSeq =
+-     match tupleSeq with
+-     | [] -> acc
+-     | (k,v) :: t -> (recompose t acc.Add(k,v));;
+
+      | (k,v) :: t -> (recompose t acc.Add(k,v));;
+  ---------------------------------^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(288,34): error FS0597: Successive arguments should be separated by spaces or tupled, and arguments involving function or method applications should be parenthesized
+
+> let rec recompose (acc: Map<string,string>) tupleSeq =
+-     match tupleSeq with
+-     | [] -> acc
+-     | (k,v) :: t -> (recompose t (acc.Add(k,v)));;
+
+      | (k,v) :: t -> (recompose t (acc.Add(k,v)));;
+  -------------------------------^
+
+/Users/usuario/wpractice/sls/myService/stdin(292,32): error FS0001: This expression was expected to have type
+    'Map<string,string>'    
+but here has type
+    '('a * 'b) list'    
+
+> let rec recompose (acc: Map<string,string>) tupleSeq =
+-     match tupleSeq with
+-     | [] -> acc
+-     | (k,v) :: t -> (recompose (acc.Add(k,v)) t) ;;
+val recompose :
+  acc:Map<string,string> ->
+    tupleSeq:(string * string) list -> Map<string,string>
+
+> let transformFull (req: Map<string,string>) =
+-   (transformEntities req) |> (recompose Map.empty);;
+
+    (transformEntities req) |> (recompose Map.empty);;
+  ------------------------------^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(298,31): error FS0001: Type mismatch. Expecting a
+    'seq<string * string> -> 'a'    
+but given a
+    '(string * string) list -> Map<string,string>'    
+The type 'seq<string * string>' does not match the type '(string * string) list'
+
+> let transformEntities (req: Map<string,string>) = 
+-    let myKeyz = (keyz req)   
+-    myKeyz |> List.map (fun x -> (x, req.[x] |> (subs "(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)" dynamoEntities) |> (subs "(\.|\+|&|;- )"-  entities)));;    
+
+     myKeyz |> List.map (fun x -> (x, req.[x] |> (subs "(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)" dynamoEntities) |> (subs "(\.|\+|&|;)"-  entities)));;    
+  -------------^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(301,14): error FS0001: Type mismatch. Expecting a
+    'seq<string> -> 'a'    
+but given a
+    ''b list -> 'c list'    
+The type 'seq<string>' does not match the type ''a list'
+
+> 
+- ;;
+> let rec recompose (acc: Map<string,string>) tupleSeq =
+-     match (Seq.toList tupleSeq) with
+-     | [] -> acc
+-     | (k,v) :: t -> (recompose (acc.Add(k,v)) t) ;;
+val recompose :
+  acc:Map<string,string> ->
+    tupleSeq:(string * string) list -> Map<string,string>
+
+> let transformEntities (req: Map<string,string>) = 
+-   let myKeyz = (keyz req)
+-   myKeyz |> List.map (fun x -> (x, req.[x] |> (subs "(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)" dynamoEntities) |> (subs "(\.|\+|&|;)- "-  entities)));;
+
+    myKeyz |> List.map (fun x -> (x, req.[x] |> (subs "(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)" dynamoEntities) |> (subs "(\.|\+|&|;)"-  entities)));;
+  ------------^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(310,13): error FS0001: Type mismatch. Expecting a
+    'seq<string> -> 'a'    
+but given a
+    ''b list -> 'c list'    
+The type 'seq<string>' does not match the type ''a list'
+
+> let transformEntities (req: Map<string,string>) = 
+-    let myKeyz = (keyz req)   
+-    myKeyz |> Seq.map (fun x -> (x, req.[x] |> (subs "(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)" dynamoEntities) |> (subs "(\.|\+|&|;)- "-  entities)));;
+
+     myKeyz |> Seq.map (fun x -> (x, req.[x] |> (subs "(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)" dynamoEntities) |> (subs "(\.|\+|&|;)"-  entities)));;
+  --------------------------------------------------------------------------------------------------------------------------------------------^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(313,141): error FS0001: Expecting a type supporting the operator '-' but given a function type. You may be missing an argument to a function.
+
+> let transformEntities (req: Map<string,string>) = 
+-    let myKeyz = (keyz req)   
+-    myKeyz |> Seq.map (fun x -> (x, req.[x] |> (subs "(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)" dynamoEntities) |> (subs "(\.|\+|&|;)- "  entities)));;    
+val transformEntities : req:Map<string,string> -> seq<string * string>
+
+> let rec recompose (acc: Map<string,string>) tupleSeq =
+-     match (Seq.toList tupleSeq) with
+-     | [] -> acc
+-     | (k,v) :: t -> (recompose (acc.Add(k,v)) t) ;;
+val recompose :
+  acc:Map<string,string> ->
+    tupleSeq:(string * string) list -> Map<string,string>
+
+> let transformFull (r: Map<string, string>) =
+-   (transformEntities req) |> (recompose Map.empty);;
+
+    (transformEntities req) |> (recompose Map.empty);;
+  ---------------------^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(322,22): error FS0039: The value or constructor 'req' is not defined. Maybe you want one of the following:
+   Res
+   ref
+   Ref
+   seq
+   Seq
+
+> let transformFull (r: Map<string, string>) =
+-   (transformEntities r) |> (recompose Map.empty);;  
+
+    (transformEntities r) |> (recompose Map.empty);;
+  ----------------------------^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(324,29): error FS0001: Type mismatch. Expecting a
+    'seq<string * string> -> 'a'    
+but given a
+    '(string * string) list -> Map<string,string>'    
+The type 'seq<string * string>' does not match the type '(string * string) list'
+
+> (recompose Map.empty);;
+val it : ((string * string) list -> Map<string,string>) = <fun:it@325-6>
+
+> let rec recompose (acc: Map<string,string>) tupleSeq =
+-     match (Seq.toList tupleSeq) with
+-     | [] -> acc
+-     | (k,v) :: t -> (recompose (acc.Add(k,v)) t) ;;
+val recompose :
+  acc:Map<string,string> ->
+    tupleSeq:(string * string) list -> Map<string,string>
+
+>  (recompose Map.empty);;
+val it : ((string * string) list -> Map<string,string>) = <fun:it@330-7>
+
+> let transformEntities (req: Map<string,string>) = 
+-    let myKeyz = (keyz req)   
+-    myKeyz |> Seq.map (fun x -> (x, req.[x] |> (subs "(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)" dynamoEntities) |> (subs "(\.|\+|&|;)- "  entities))) |> List.ofSeq;;    
+val transformEntities : req:Map<string,string> -> (string * string) list
+
+> let transformFull (r: Map<string, string>) =
+-   (transformEntities r) |> (recompose Map.empty);;
+val transformFull : r:Map<string,string> -> Map<string,string>
+
+> lengthValidate;;
+
+  lengthValidate;;
+  ^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(336,1): error FS0039: The value or constructor 'lengthValidate' is not defined.
+
+> let lengthValidate s
+-      match ((String.length s) < 50) with
+
+       match ((String.length s) < 50) with
+  -----^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(338,6): error FS0010: Unexpected keyword 'match' in binding. Expected '=' or other token.
+
+-      | true -> Valid(s)
+-      | false -> Invalid;;
+> let lengthValidate s
+-      match ((String.length s) < 50) with
+
+       match ((String.length s) < 50) with
+  -----^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(342,6): error FS0010: Unexpected keyword 'match' in binding. Expected '=' or other token.
+
+-      | true -> Valid(s)
+-      | false -> Invalid;;
+> ;;
+> let lengthValidate s
+-     match ((String.length s) < 50) with
+
+      match ((String.length s) < 50) with
+  ----^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(347,5): error FS0010: Unexpected keyword 'match' in binding. Expected '=' or other token.
+
+-     | true -> Valid(s)
+-     | false -> Invalid;;
+> let lengthValidate s =
+-     match ((String.length s) < 50) with
+-     | true -> Valid(s)
+-     | false -> Invalid;;
+
+      | false -> Invalid;;
+  ---------------^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(353,16): error FS0001: All branches of a pattern match expression must return values of the same type as the first branch, which here is 'userInput'. This branch returns a value of type 'string -> userInput'.
+
+> let lengthValidate s =
+-     match ((String.length s) < 50) with
+-     | true -> Valid(s)
+-     | false -> Invalid("too long");;
+val lengthValidate : s:string -> userInput
+
+> let preedString s = 
+-      match (List.contains s unsafeEntities) with
+-      | true -> Invalid("unsafe!")
+-      | false -> Valid(s);;
+val preedString : s:string -> userInput
+
+> let validate st =     
+-   Valid(st) |> (validationAccepting lengthValidate) |> (validationAccepting preedString);; 
+val validate : st:string -> userInput
+
+> (validate "yoo");;
+val it : userInput = Valid "yoo"
+
+> (validate "yoodfsaaifdsoiafdsioafdsiojdsfijodfsijodsijodfsidsfiojdfsiojfdsiofdsijofdsijodsjfio");;
+val it : userInput = Invalid "too long"
+
+> (validate "yoo");;                                                                                
+val it : userInput = Valid "yoo"
+
+> (validate "yooNOT_NULL");;
+val it : userInput = Valid "yooNOT_NULL"
+
+> (validate "NOT_NULL");;   
+val it : userInput = Invalid "unsafe!"
+
+> (validate "NOT_NULLf");;  
+val it : userInput = Valid "NOT_NULLf"
+
+> unsafeEntities;;
+val it : string list = ["NOT_NULL"; "NOT_CONTAINS"; "BEGINS_WITH"]
+
+> let preedString s =
+- ;;                                                       
+
+  ;;
+  ^^
+
+/Users/usuario/wpractice/sls/myService/stdin(372,1): warning FS0058: Possible incorrect indentation: this token is offside of context started at position (371:1). Try indenting this token further or using standard formatting conventions.
+
+
+  ;;
+  ^^
+
+/Users/usuario/wpractice/sls/myService/stdin(372,1): warning FS0058: Possible incorrect indentation: this token is offside of context started at position (371:1). Try indenting this token further or using standard formatting conventions.
+
+
+  ;;
+  ^^
+
+/Users/usuario/wpractice/sls/myService/stdin(372,1): error FS0010: Incomplete structured construct at or before this point in binding
+
+> (fn st -> (List.find (fun en -> (st.Contains en)) unsafeEntities));;
+
+  (fn st -> (List.find (fun en -> (st.Contains en)) unsafeEntities));;
+  -------^^
+
+/Users/usuario/wpractice/sls/myService/stdin(373,8): error FS0010: Unexpected symbol '->' in expression
+
+> (fun st -> (List.find (fun en -> (st.Contains en)) unsafeEntities));;
+
+  (fun st -> (List.find (fun en -> (st.Contains en)) unsafeEntities));;
+  ----------------------------------^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(374,35): error FS0072: Lookup on object of indeterminate type based on information prior to this program point. A type annotation may be needed prior to this program point to constrain the type of the object. This may allow the lookup to be resolved.
+
+> (fun (st: string) -> (List.find (fun en -> (st.Contains en)) unsafeEntities));;
+
+  (fun (st: string) -> (List.find (fun en -> (st.Contains en)) unsafeEntities));;
+  --------------------------------------------^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(375,45): error FS0041: A unique overload for method 'Contains' could not be determined based on type information prior to this program point. A type annotation may be needed. Candidates: String.Contains(value: char) : bool, String.Contains(value: string) : bool
+
+> (fun (st: string) -> (List.find (fun en -> (String.Contains st en)) unsafeEntities));;
+
+  (fun (st: string) -> (List.find (fun en -> (String.Contains st en)) unsafeEntities));;
+  --------------------------------------------^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(376,45): error FS3214: Method or object constructor 'Contains' is not static
+
+> (fun (st: string) -> (List.find (fun en -> (st.Contains  en)) unsafeEntities));;      
+
+  (fun (st: string) -> (List.find (fun en -> (st.Contains  en)) unsafeEntities));;
+  --------------------------------------------^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(377,45): error FS0041: A unique overload for method 'Contains' could not be determined based on type information prior to this program point. A type annotation may be needed. Candidates: String.Contains(value: char) : bool, String.Contains(value: string) : bool
+
+> let strContain (x:string, y: string) =
+-   y.Contains x;;
+val strContain : x:string * y:string -> bool
+
+> (fun (st: string) -> (List.find (fun en -> (strContain st  en)) unsafeEntities));;
+
+  (fun (st: string) -> (List.find (fun en -> (strContain st  en)) unsafeEntities));;
+  --------------------------------------------^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(380,45): error FS0003: This value is not a function and cannot be applied.
+
+> (fun (st: string) -> (List.find (fun en -> strContain(st,en)) unsafeEntities));;  
+val it : st:string -> string
+
+> (fun (st: string) -> (List.exists (fun en -> strContain(st,en)) unsafeEntities));;
+val it : st:string -> bool
+
+> let preedString s = 
+-      match (fun (st: string) -> (List.exists (fun en -> strContain(st,en)) unsafeEntities)) with
+-      | true -> Invalid("unsafe!")
+-      | false -> Valid(s);;
+
+       | true -> Invalid("unsafe!")
+  -------^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(385,8): error FS0001: This expression was expected to have type
+    'string -> bool'    
+but here has type
+    'bool'    
+
+> let preedString st = 
+-      match  (List.exists (fun en -> strContain(st,en)) unsafeEntities) with
+-      | true -> Invalid("unsafe!")
+-      | false -> Valid(s);;
+
+       | false -> Valid(s);;
+  ----------------------^
+
+/Users/usuario/wpractice/sls/myService/stdin(390,23): error FS0039: The value or constructor 's' is not defined. Maybe you want one of the following:
+   SR
+   st
+   MS
+
+> let preedString st = 
+-      match  (List.exists (fun en -> strContain(st,en)) unsafeEntities) with
+-      | true -> Invalid("unsafe!")
+-      | false -> Valid(st);;
+val preedString : st:string -> userInput
+
+> let validateEntities (req: Map<string,string>) = 
+-     let myKeyz = (keyz req)   
+-     myKeyz |> Seq.map (fun x -> (x, Valid(req.[x]) |> (validationAccepting preedString)  |> (validationAccepting lengthValidate))) |> Li- st.ofSeq;;
+val validateEntities : req:Map<string,string> -> (string * userInput) list
+
+> let validateMo (req: Map<string,string>) =                                                                                              -    (validateEntities req) |> recompose;;
+
+     (validateEntities req) |> recompose;;
+  -----------------------------^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(399,30): error FS0001: Type mismatch. Expecting a
+    '(string * userInput) list -> 'a'    
+but given a
+    'Map<string,string> -> (string * string) list -> Map<string,string>'    
+The type '(string * userInput) list' does not match the type 'Map<string,string>'
+
+> type validatedMap = Valido of Map<string,string> | Invalido of string;
+
+  type validatedMap = Valido of Map<string,string> | Invalido of string;
+  ---------------------------------------------------------------------^
+
+/Users/usuario/wpractice/sls/myService/stdin(400,70): error FS0010: Unexpected symbol ';' in member definition
+
+- ;;
+> type validatedMap = Valido of Map<string,string> | Invalido of string;;
+type validatedMap =
+  | Valido of Map<string,string>
+  | Invalido of string
+
+> let validateMap mylst =                 
+-   match mylst with 
+-   | ]
+
+    | ]
+  ----^
+
+/Users/usuario/wpractice/sls/myService/stdin(405,5): error FS0010: Unexpected symbol ']' in expression
+
+- ;;
+> let validateMap mylst =
+-   match myLst with;;
+
+    match myLst with;;
+  ------------------^^
+
+/Users/usuario/wpractice/sls/myService/stdin(408,19): error FS0010: Incomplete structured construct at or before this point in expression
+
+> let validateMap mylst acc =
+-   match myLst with
+-   | [] -> acc
+-   | (k, Valid(s)) -> (validateMap mylst;);;
+
+    match myLst with
+  --------^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(410,9): error FS0039: The value or constructor 'myLst' is not defined. Maybe you want one of the following:
+   mylst
+
+> let validateMap mylst acc =
+-   match myLst with
+- ;;
+
+  ;;
+  ^^
+
+/Users/usuario/wpractice/sls/myService/stdin(415,1): warning FS0058: Possible incorrect indentation: this token is offside of context started at position (414:3). Try indenting this token further or using standard formatting conventions.
+
+
+  ;;
+  ^^
+
+/Users/usuario/wpractice/sls/myService/stdin(415,1): error FS0010: Incomplete structured construct at or before this point in expression
+
+> let validateMap mylst acc =
+-   match mylst with         
+-   | [] -> acc
+-   | (k, Valid(s)) :: t -> (validateMap t ((k,s)  :: acc) )
+-   | (_, Invalid(s)) -> FAIL;;
+
+    | (k, Valid(s)) :: t -> (validateMap t ((k,s)  :: acc) )
+  ---------------------------^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(419,28): error FS0039: The value or constructor 'validateMap' is not defined. Maybe you want one of the following:
+   validatedMap
+   validate
+   Valid
+   validateEntities
+   validationAccepting
+
+> Valido;;                      
+val it : arg0:Map<string,string> -> validatedMap
+
+> validatedMap;;
+
+  validatedMap;;
+  ^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(422,1): error FS0039: The value or constructor 'validatedMap' is not defined.
+
+> let validateMap mylst acc =
+-   match mylst with
+-   | [] -> Valido(acc)
+-   | (k, Valid(s)) :: t -> (validateMap t ((k,s)  :: acc) )
+-   | (_, Invalid(ss)) -> Invalido(ss);;
+
+    | (k, Valid(s)) :: t -> (validateMap t ((k,s)  :: acc) )
+  ---------------------------^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(426,28): error FS0039: The value or constructor 'validateMap' is not defined. Maybe you want one of the following:
+   validatedMap
+   validate
+   Valid
+   validateEntities
+   validationAccepting
+
+> let rec validateMap mylst acc =
+-    match mylst with
+-    | [] -> Valido(acc)
+-    | (k, Valid(s)) :: t -> (validateMap t ((k,s)  :: acc) )
+-    | (_, Invalid(ss)) -> Invalido(ss);;
+
+     | (k, Valid(s)) :: t -> (validateMap t ((k,s)  :: acc) )
+  -------------------------------------------^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(431,44): error FS0001: This expression was expected to have type
+    'Map<string,string>'    
+but here has type
+    ''a list'    
+
+> let rec validateMap mylst acc =
+-    match mylst with
+-    | [] -> Valido(acc)
+-    | (k, Valid(s)) :: t -> (validateMap t  (k,s)::acc ) 
+-    | (_, Invalid(ss)) -> Invalido(ss);;
+
+     | (k, Valid(s)) :: t -> (validateMap t  (k,s)::acc )
+  ----------------------------^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(436,29): error FS0001: All branches of a pattern match expression must return values of the same type as the first branch, which here is 'validatedMap'. This branch returns a value of type ''a list'.
+
+> let rec validateMap mylst acc =
+-     match mylst with
+-     | [] -> Valido(acc)
+-     | (_, Invalid(ss)) -> Invalido(ss)
+-     | (k, Valid(s)) :: t -> (validateMap t  (k,s)::acc ) ;;   
+
+      | (_, Invalid(ss)) -> Invalido(ss)
+  -------^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(441,8): error FS0001: This expression was expected to have type
+    ''a list'    
+but here has type
+    ''b * 'c'    
+
+> let rec validateMap mylst acc =
+-     match mylst with
+-     | [] -> Valido(acc)
+-     | (_, Invalid(ss)) :: _ -> Invalido(ss)
+-     | (k, Valid(s)) :: t -> (validateMap t  (k,s)::acc ) ;; 
+
+      | (k, Valid(s)) :: t -> (validateMap t  (k,s)::acc ) ;; 
+  -----------------------------^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(447,30): error FS0001: All branches of a pattern match expression must return values of the same type as the first branch, which here is 'validatedMap'. This branch returns a value of type ''a list'.
+
+> type validatedMap = Valido of (string * string) list | Invalido of string;
+
+  type validatedMap = Valido of (string * string) list | Invalido of string;
+  -------------------------------------------------------------------------^
+
+/Users/usuario/wpractice/sls/myService/stdin(448,74): error FS0010: Unexpected symbol ';' in member definition
+
+- type validatedMap = Valido of (string * string) list | Invalido of string;;
+> type validatedMap = Valido of (string * string) list | Invalido of string;;
+type validatedMap =
+  | Valido of (string * string) list
+  | Invalido of string
+
+> let rec validateMap mylst acc =
+-     match mylst with
+-     | [] -> Valido(acc)
+-     | (_, Invalid(ss)) :: _ -> Invalido(ss)
+-     | (k, Valid(s)) :: t -> (validateMap t  ((k,s)::acc) ) ;;
+val validateMap :
+  mylst:(string * userInput) list ->
+    acc:(string * string) list -> validatedMap
+
+> let validateFull (req: Map<string, string>) = req |> validateEntities |> validateMap;;
+val validateFull :
+  req:Map<string,string> -> ((string * string) list -> validatedMap)
+
+> let validatePipeline (req: Map<string, string>) =
+-   match (validateFull req) with
+-   | Invalido(ss) -> Invalid(ss)
+-   | Valido(ss) -> Valid((ss |> validateMap |> recompose));;
+
+    | Invalido(ss) -> Invalid(ss)
+  ----^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(459,5): error FS0001: This expression was expected to have type
+    '(string * string) list -> validatedMap'    
+but here has type
+    'validatedMap'    
+
+> let validatePipeline (req: Map<string, string>) =          
+-    match (validateFull req) with
+-    | Invalido(ss) -> Invalid(ss)
+-    | Valido(ss) -> Valid(ss |> validateMap |> recompose);;
+
+     | Invalido(ss) -> Invalid(ss)
+  -----^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(463,6): error FS0001: This expression was expected to have type
+    '(string * string) list -> validatedMap'    
+but here has type
+    'validatedMap'    
+
+> let reqq =
+-     Map.empty.
+-         Add("a", "yo").
+-         Add("b", "sdfdsf,,...").
+-         Add("c", "dafs").
+-         Add("d", "dfdd");; 
+val reqq : Map<string,string> =
+  map [("a", "yo"); ("b", "sdfdsf,,..."); ("c", "dafs"); ("d", "dfdd")]
+
+> (validateFull reqq);
+- ;;
+val it : ((string * string) list -> validatedMap) = <fun:it@471-10>
+
+> let rec validateMap acc mylst =
+-     match mylst with
+-     | [] -> Valido(acc)
+-     | (_, Invalid(ss)) :: _ -> Invalido(ss)
+-     | (k, Valid(s)) :: t -> (validateMap t  ((k,s)::acc) ) ;; 
+
+      | (k, Valid(s)) :: t -> (validateMap t  ((k,s)::acc) ) ;; 
+  -----------------------------------------^
+
+/Users/usuario/wpractice/sls/myService/stdin(477,42): error FS0001: The type 'string' does not match the type 'userInput'
+
+> let rec validateMap acc mylst =
+-     match mylst with
+-     | [] -> Valido(acc)
+-     | (_, Invalid(ss)) :: _ -> Invalido(ss)
+-     | (k, Valid(s)) :: t -> (validateMap  ((k,s)::acc) ) t) ;;    
+
+      | (k, Valid(s)) :: t -> (validateMap  ((k,s)::acc) ) t) ;;    
+  ----------------------------------------------------------^
+
+/Users/usuario/wpractice/sls/myService/stdin(482,59): error FS0010: Unexpected symbol ')' in expression. Expected incomplete structured construct at or before this point or other token.
+
+> let rec validateMap acc mylst =
+-     match mylst with
+-     | [] -> Valido(acc)
+-     | (_, Invalid(ss)) :: _ -> Invalido(ss)
+-     | (k, Valid(s)) :: t -> (validateMap  (k,s)::acc)  t) ;;
+
+      | (k, Valid(s)) :: t -> (validateMap  (k,s)::acc)  t) ;;
+  --------------------------------------------------------^
+
+/Users/usuario/wpractice/sls/myService/stdin(487,57): error FS0010: Unexpected symbol ')' in expression. Expected incomplete structured construct at or before this point or other token.
+
+> let rec validateMap acc mylst =
+-     match mylst with
+-     | [] -> Valido(acc)
+-     | (_, Invalid(ss)) :: _ -> Invalido(ss)
+-     | (k, Valid(s)) :: t -> (validateMap  ((k,s)::acc)  t) ;;    
+val validateMap :
+  acc:(string * string) list ->
+    mylst:(string * userInput) list -> validatedMap
+
+> let validateFull (req: Map<string, string>) = req |> validateEntities |> (validateMap []);;    
+val validateFull : req:Map<string,string> -> validatedMap
+
+> let validatePipeline (req: Map<string, string>) =
+-    match (validateFull req) with
+-    | Invalido(ss) -> Invalid(ss)
+-    | Valido(ss) -> Valid(ss |> validateMap |> recompose);;
+
+     | Valido(ss) -> Valid(ss |> validateMap |> recompose);;
+  ----------------------------------------------^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(497,47): error FS0001: The type '(string * userInput) list -> validatedMap' does not match the type 'Map<string,string>'
+
+> let validatePipeline (req: Map<string, string>) =
+-    match (validateFull req) with
+-    | Invalido(ss) -> Invalid(ss)
+-    | Valido(ss) -> Valid(ss |> recompose);;
+
+     | Valido(ss) -> Valid(ss |> recompose);;
+  -------------------------------^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(501,32): error FS0001: The type '(string * string) list' does not match the type 'Map<string,string>'
+
+> (validateFull reqq);;
+val it : validatedMap =
+  Valido [("d", "dfdd"); ("c", "dafs"); ("b", "sdfdsf,,..."); ("a", "yo")]
+
+> (validateFull reqq.Add("c","NOT_NULL"));;  
+
+  (validateFull reqq.Add("c","NOT_NULL"));;
+  --------------^^^^^^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(503,15): error FS0597: Successive arguments should be separated by spaces or tupled, and arguments involving function or method applications should be parenthesized
+
+> reqq.Add("c","NOT_NULL")
+- ;;
+val it : Map<string,string> =
+  map [("a", "yo"); ("b", "sdfdsf,,..."); ("c", "NOT_NULL"); ("d", "dfdd")]
+
+> (validateFull (reqq.Add("c","NOT_NULL")));;
+val it : validatedMap = Invalido "unsafe!"
+
+> (validateFull reqq);;                      
+val it : validatedMap =
+  Valido [("d", "dfdd"); ("c", "dafs"); ("b", "sdfdsf,,..."); ("a", "yo")]
+
+> (recompose [("d", "dfdd"); ("c", "dafs"); ("b", "sdfdsf,,..."); ("a", "yo")]);;
+
+  (recompose [("d", "dfdd"); ("c", "dafs"); ("b", "sdfdsf,,..."); ("a", "yo")]);;
+  -----------^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(508,12): error FS0001: This expression was expected to have type
+    'Map<string,string>'    
+but here has type
+    ''a list'    
+
+> let validatePipeline (req: Map<string, string>) =
+-    match (validateFull req) with
+-    | Invalido(ss) -> Invalid(ss)
+-    | Valido(ss) -> Valid(ss |> (recompose Map.empty));;
+
+     | Valido(ss) -> Valid(ss |> (recompose Map.empty));;
+  --------------------------------^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(512,33): error FS0001: The type 'string' does not match the type 'Map<string,string>'
+
+> (recompose Map.empty);;
+val it : ((string * string) list -> Map<string,string>) = <fun:it@513-11>
+
+> (validateFull reqq);;
+val it : validatedMap =
+  Valido [("d", "dfdd"); ("c", "dafs"); ("b", "sdfdsf,,..."); ("a", "yo")]
+
+> let Valido(u) = (validateFull reqq);;
+val Valido : u:'a -> validatedMap
+
+> u;;
+
+  u;;
+  ^
+
+/Users/usuario/wpractice/sls/myService/stdin(516,1): error FS0039: The value or constructor 'u' is not defined.
+
+> let Valido(x) = (validateFull reqq);;
+val Valido : x:'a -> validatedMap
+
+> x;;
+
+  x;;
+  ^
+
+/Users/usuario/wpractice/sls/myService/stdin(518,1): error FS0039: The value or constructor 'x' is not defined.
+
+> let x = (validateFull reqq);;        
+val x : validatedMap =
+  Valido [("d", "dfdd"); ("c", "dafs"); ("b", "sdfdsf,,..."); ("a", "yo")]
+
+> let u = match x with
+- | Valido(y) -> y
+
+  | Valido(y) -> y
+  ^
+
+/Users/usuario/wpractice/sls/myService/stdin(521,1): warning FS0058: Possible incorrect indentation: this token is offside of context started at position (520:9). Try indenting this token further or using standard formatting conventions.
+
+- let u = match x with         
+-   | Valido(y) -> y  
+
+    | Valido(y) -> y
+  --^
+
+/Users/usuario/wpractice/sls/myService/stdin(523,3): warning FS0058: Possible incorrect indentation: this token is offside of context started at position (522:9). Try indenting this token further or using standard formatting conventions.
+
+- x;;                 
+
+  let u = match x with
+  --------------^
+
+/Users/usuario/wpractice/sls/myService/stdin(520,15): warning FS0025: Incomplete pattern matches on this expression. For example, the value 'Invalido (_)' may indicate a case not covered by the pattern(s).
+
+
+  let u = match x with
+  --------------^
+
+/Users/usuario/wpractice/sls/myService/stdin(522,15): warning FS0025: Incomplete pattern matches on this expression. For example, the value 'Invalido (_)' may indicate a case not covered by the pattern(s).
+
+
+  let u = match x with
+  ----^
+
+/Users/usuario/wpractice/sls/myService/stdin(522,5): error FS0037: Duplicate definition of value 'u'
+
+> let x = (validateFull reqq);; 
+val x : validatedMap =
+  Valido [("d", "dfdd"); ("c", "dafs"); ("b", "sdfdsf,,..."); ("a", "yo")]
+
+> let (Valido(x)) = (validateFull reqq);; 
+
+  let (Valido(x)) = (validateFull reqq);; 
+  ----^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(526,5): warning FS0025: Incomplete pattern matches on this expression. For example, the value 'Invalido (_)' may indicate a case not covered by the pattern(s).
+
+val x : (string * string) list =
+  [("d", "dfdd"); ("c", "dafs"); ("b", "sdfdsf,,..."); ("a", "yo")]
+
+> x;;
+val it : (string * string) list =
+  [("d", "dfdd"); ("c", "dafs"); ("b", "sdfdsf,,..."); ("a", "yo")]
+
+> (recompose Map.empty);;
+val it : ((string * string) list -> Map<string,string>) = <fun:it@528-12>
+
+> x |> (recompose Map.empty);;
+val it : Map<string,string> =
+  map [("a", "yo"); ("b", "sdfdsf,,..."); ("c", "dafs"); ("d", "dfdd")]
+
+> let validatePipeline (req: Map<string, string>) =
+-    match (validateFull req) with
+-    | Invalido(ss) -> Invalid("fuck u faggot")
+-    | Valido(ss) -> Valid((ss |> (recompose Map.empty)));
+- 
+- ;;
+
+     | Valido(ss) -> Valid((ss |> (recompose Map.empty)));
+  ---------------------------------^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(533,34): error FS0001: The type 'string' does not match the type 'Map<string,string>'
+
+> let validatePipeline (req: Map<string, string>) =
+-    match (validateFull req) with
+-    | Invalido(ss) -> Invalid("fuck u faggot")
+-    | Valido(ss) -> Valid(ss |> (recompose Map.empty));
+- 
+- '''';;;
+
+  '''';;;
+  ---^
+
+/Users/usuario/wpractice/sls/myService/stdin(541,4): error FS0010: Unexpected quote symbol in interaction. Expected incomplete structured construct at or before this point, ';', ';;' or other token.
+
+> 
+  '''';;;
+  ------^
+
+/Users/usuario/wpractice/sls/myService/stdin(541,7): warning FS0527: A semicolon is not expected at this point
+
+> let validatePipeline (req: Map<string, string>) =
+-    match (validateFull req) with
+-    | Invalido(ss) -> Invalid("fuck u faggot")
+-    | Valido(ss) -> Valid(ss |> (recompose Map.empty));;
+
+     | Valido(ss) -> Valid(ss |> (recompose Map.empty));;
+  --------------------------------^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(545,33): error FS0001: The type 'string' does not match the type 'Map<string,string>'
+
+> (recompose Map.empty);;
+val it : ((string * string) list -> Map<string,string>) = <fun:it@546-13>
+
+> (recompose Map.empty) "yo";;
+
+  (recompose Map.empty) "yo";;
+  ----------------------^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(547,23): error FS0001: This expression was expected to have type
+    '(string * string) list'    
+but here has type
+    'string'    
+
+> let validateFull (req: Map<string, string>) = req |> validateEntities |> (validateMap []);;    
+val validateFull : req:Map<string,string> -> validatedMap
+
+> (validateFull reqq);;
+val it : validatedMap =
+  Valido [("d", "dfdd"); ("c", "dafs"); ("b", "sdfdsf,,..."); ("a", "yo")]
+
+> reqq;
+- ;;
+val it : Map<string,string> =
+  map [("a", "yo"); ("b", "sdfdsf,,..."); ("c", "dafs"); ("d", "dfdd")]
+
+> let validatePipeline (req: Map<string, string>) =
+-    match (validateFull req) with
+-    | Invalido(ss) -> Invalid("fuck u faggot")
+-    | Valido(ss) -> (
+-        let u = ss |> (recompose Map.empty)
+
+         let u = ss |> (recompose Map.empty)
+  -------^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(556,8): warning FS0058: Possible incorrect indentation: this token is offside of context started at position (555:20). Try indenting this token further or using standard formatting conventions.
+
+
+         let u = ss |> (recompose Map.empty)
+  -------^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(556,8): warning FS0058: Possible incorrect indentation: this token is offside of context started at position (555:20). Try indenting this token further or using standard formatting conventions.
+
+-        Valid(u));;
+
+         Valid(u));;
+  -------^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(557,8): warning FS0058: Possible incorrect indentation: this token is offside of context started at position (555:20). Try indenting this token further or using standard formatting conventions.
+
+
+         Valid(u));;
+  -------^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(557,8): warning FS0058: Possible incorrect indentation: this token is offside of context started at position (555:20). Try indenting this token further or using standard formatting conventions.
+
+
+         Valid(u));;
+  -------------^
+
+/Users/usuario/wpractice/sls/myService/stdin(557,14): error FS0001: This expression was expected to have type
+    'string'    
+but here has type
+    'Map<string,string>'    
+
+> ;;
+> ;;
+> let validatePipeline (req: Map<string, string>) =
+-    match (validateFull req) with
+-    | Invalido(ss) -> Invalid("fuck u faggot")
+-    | Valido(ss) -> (
+-                      let u = ss |> (recompose Map.empty)
+-                      Valid(u) );;
+
+                       Valid(u) );;
+  ---------------------------^
+
+/Users/usuario/wpractice/sls/myService/stdin(565,28): error FS0001: This expression was expected to have type
+    'string'    
+but here has type
+    'Map<string,string>'    
+
+> let validatePipeline (req: Map<string, string>) =
+-    match (validateFull req) with
+-    | Invalido(ss) -> NoSiga("fuck u faggot")
+-    | Valido(ss) -> (
+-                      let u = ss |> (recompose Map.empty)
+-                      Siga(u) );;
+val validatePipeline : req:Map<string,string> -> middlewareResult
+    myKeyz |> Seq.map (fun x -> (x, req.[x] |> (subs "(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)" dynamoEntities) |> (subs "(\.|\+|&|;)"-  entities)));;
+  --------------------------------------------------------------------------------------------------------------------------------------------^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(313,141): error FS0001: Expecting a type supporting the operator '-' but given a function type. You may be missing an argument to a function.
+
+> let transformEntities (req: Map<string,string>) = 
+-    let myKeyz = (keyz req)   
+-    myKeyz |> Seq.map (fun x -> (x, req.[x] |> (subs "(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)" dynamoEntities) |> (subs "(\.|\+|&|;)- "  entities)));;    
+val transformEntities : req:Map<string,string> -> seq<string * string>
+
+> let rec recompose (acc: Map<string,string>) tupleSeq =
+-     match (Seq.toList tupleSeq) with
+-     | [] -> acc
+-     | (k,v) :: t -> (recompose (acc.Add(k,v)) t) ;;
+val recompose :
+  acc:Map<string,string> ->
+    tupleSeq:(string * string) list -> Map<string,string>
+
+> let transformFull (r: Map<string, string>) =
+-   (transformEntities req) |> (recompose Map.empty);;
+
+    (transformEntities req) |> (recompose Map.empty);;
+  ---------------------^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(322,22): error FS0039: The value or constructor 'req' is not defined. Maybe you want one of the following:
+   Res
+   ref
+   Ref
+   seq
+   Seq
+
+> let transformFull (r: Map<string, string>) =
+-   (transformEntities r) |> (recompose Map.empty);;  
+
+    (transformEntities r) |> (recompose Map.empty);;
+  ----------------------------^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(324,29): error FS0001: Type mismatch. Expecting a
+    'seq<string * string> -> 'a'    
+but given a
+    '(string * string) list -> Map<string,string>'    
+The type 'seq<string * string>' does not match the type '(string * string) list'
+
+> (recompose Map.empty);;
+val it : ((string * string) list -> Map<string,string>) = <fun:it@325-6>
+
+> let rec recompose (acc: Map<string,string>) tupleSeq =
+-     match (Seq.toList tupleSeq) with
+-     | [] -> acc
+-     | (k,v) :: t -> (recompose (acc.Add(k,v)) t) ;;
+val recompose :
+  acc:Map<string,string> ->
+    tupleSeq:(string * string) list -> Map<string,string>
+
+>  (recompose Map.empty);;
+val it : ((string * string) list -> Map<string,string>) = <fun:it@330-7>
+
+> let transformEntities (req: Map<string,string>) = 
+-    let myKeyz = (keyz req)   
+-    myKeyz |> Seq.map (fun x -> (x, req.[x] |> (subs "(EQ|NE|IN|LE|LT|GE|GT|BETWEEN|NULL|CONTAINS)" dynamoEntities) |> (subs "(\.|\+|&|;)- "  entities))) |> List.ofSeq;;    
+val transformEntities : req:Map<string,string> -> (string * string) list
+
+> let transformFull (r: Map<string, string>) =
+-   (transformEntities r) |> (recompose Map.empty);;
+val transformFull : r:Map<string,string> -> Map<string,string>
+
+> lengthValidate;;
+
+  lengthValidate;;
+  ^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(336,1): error FS0039: The value or constructor 'lengthValidate' is not defined.
+
+> let lengthValidate s
+-      match ((String.length s) < 50) with
+
+       match ((String.length s) < 50) with
+  -----^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(338,6): error FS0010: Unexpected keyword 'match' in binding. Expected '=' or other token.
+
+-      | true -> Valid(s)
+-      | false -> Invalid;;
+> let lengthValidate s
+-      match ((String.length s) < 50) with
+
+       match ((String.length s) < 50) with
+  -----^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(342,6): error FS0010: Unexpected keyword 'match' in binding. Expected '=' or other token.
+
+-      | true -> Valid(s)
+-      | false -> Invalid;;
+> ;;
+> let lengthValidate s
+-     match ((String.length s) < 50) with
+
+      match ((String.length s) < 50) with
+  ----^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(347,5): error FS0010: Unexpected keyword 'match' in binding. Expected '=' or other token.
+
+-     | true -> Valid(s)
+-     | false -> Invalid;;
+> let lengthValidate s =
+-     match ((String.length s) < 50) with
+-     | true -> Valid(s)
+-     | false -> Invalid;;
+
+      | false -> Invalid;;
+  ---------------^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(353,16): error FS0001: All branches of a pattern match expression must return values of the same type as the first branch, which here is 'userInput'. This branch returns a value of type 'string -> userInput'.
+
+> let lengthValidate s =
+-     match ((String.length s) < 50) with
+-     | true -> Valid(s)
+-     | false -> Invalid("too long");;
+val lengthValidate : s:string -> userInput
+
+> let preedString s = 
+-      match (List.contains s unsafeEntities) with
+-      | true -> Invalid("unsafe!")
+-      | false -> Valid(s);;
+val preedString : s:string -> userInput
+
+> let validate st =     
+-   Valid(st) |> (validationAccepting lengthValidate) |> (validationAccepting preedString);; 
+val validate : st:string -> userInput
+
+> (validate "yoo");;
+val it : userInput = Valid "yoo"
+
+> (validate "yoodfsaaifdsoiafdsioafdsiojdsfijodfsijodsijodfsidsfiojdfsiojfdsiofdsijofdsijodsjfio");;
+val it : userInput = Invalid "too long"
+
+> (validate "yoo");;                                                                                
+val it : userInput = Valid "yoo"
+
+> (validate "yooNOT_NULL");;
+val it : userInput = Valid "yooNOT_NULL"
+
+> (validate "NOT_NULL");;   
+val it : userInput = Invalid "unsafe!"
+
+> (validate "NOT_NULLf");;  
+val it : userInput = Valid "NOT_NULLf"
+
+> unsafeEntities;;
+val it : string list = ["NOT_NULL"; "NOT_CONTAINS"; "BEGINS_WITH"]
+
+> let preedString s =
+- ;;                                                       
+
+  ;;
+  ^^
+
+/Users/usuario/wpractice/sls/myService/stdin(372,1): warning FS0058: Possible incorrect indentation: this token is offside of context started at position (371:1). Try indenting this token further or using standard formatting conventions.
+
+
+  ;;
+  ^^
+
+/Users/usuario/wpractice/sls/myService/stdin(372,1): warning FS0058: Possible incorrect indentation: this token is offside of context started at position (371:1). Try indenting this token further or using standard formatting conventions.
+
+
+  ;;
+  ^^
+
+/Users/usuario/wpractice/sls/myService/stdin(372,1): error FS0010: Incomplete structured construct at or before this point in binding
+
+> (fn st -> (List.find (fun en -> (st.Contains en)) unsafeEntities));;
+
+  (fn st -> (List.find (fun en -> (st.Contains en)) unsafeEntities));;
+  -------^^
+
+/Users/usuario/wpractice/sls/myService/stdin(373,8): error FS0010: Unexpected symbol '->' in expression
+
+> (fun st -> (List.find (fun en -> (st.Contains en)) unsafeEntities));;
+
+  (fun st -> (List.find (fun en -> (st.Contains en)) unsafeEntities));;
+  ----------------------------------^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(374,35): error FS0072: Lookup on object of indeterminate type based on information prior to this program point. A type annotation may be needed prior to this program point to constrain the type of the object. This may allow the lookup to be resolved.
+
+> (fun (st: string) -> (List.find (fun en -> (st.Contains en)) unsafeEntities));;
+
+  (fun (st: string) -> (List.find (fun en -> (st.Contains en)) unsafeEntities));;
+  --------------------------------------------^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(375,45): error FS0041: A unique overload for method 'Contains' could not be determined based on type information prior to this program point. A type annotation may be needed. Candidates: String.Contains(value: char) : bool, String.Contains(value: string) : bool
+
+> (fun (st: string) -> (List.find (fun en -> (String.Contains st en)) unsafeEntities));;
+
+  (fun (st: string) -> (List.find (fun en -> (String.Contains st en)) unsafeEntities));;
+  --------------------------------------------^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(376,45): error FS3214: Method or object constructor 'Contains' is not static
+
+> (fun (st: string) -> (List.find (fun en -> (st.Contains  en)) unsafeEntities));;      
+
+  (fun (st: string) -> (List.find (fun en -> (st.Contains  en)) unsafeEntities));;
+  --------------------------------------------^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(377,45): error FS0041: A unique overload for method 'Contains' could not be determined based on type information prior to this program point. A type annotation may be needed. Candidates: String.Contains(value: char) : bool, String.Contains(value: string) : bool
+
+> let strContain (x:string, y: string) =
+-   y.Contains x;;
+val strContain : x:string * y:string -> bool
+
+> (fun (st: string) -> (List.find (fun en -> (strContain st  en)) unsafeEntities));;
+
+  (fun (st: string) -> (List.find (fun en -> (strContain st  en)) unsafeEntities));;
+  --------------------------------------------^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(380,45): error FS0003: This value is not a function and cannot be applied.
+
+> (fun (st: string) -> (List.find (fun en -> strContain(st,en)) unsafeEntities));;  
+val it : st:string -> string
+
+> (fun (st: string) -> (List.exists (fun en -> strContain(st,en)) unsafeEntities));;
+val it : st:string -> bool
+
+> let preedString s = 
+-      match (fun (st: string) -> (List.exists (fun en -> strContain(st,en)) unsafeEntities)) with
+-      | true -> Invalid("unsafe!")
+-      | false -> Valid(s);;
+
+       | true -> Invalid("unsafe!")
+  -------^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(385,8): error FS0001: This expression was expected to have type
+    'string -> bool'    
+but here has type
+    'bool'    
+
+> let preedString st = 
+-      match  (List.exists (fun en -> strContain(st,en)) unsafeEntities) with
+-      | true -> Invalid("unsafe!")
+-      | false -> Valid(s);;
+
+       | false -> Valid(s);;
+  ----------------------^
+
+/Users/usuario/wpractice/sls/myService/stdin(390,23): error FS0039: The value or constructor 's' is not defined. Maybe you want one of the following:
+   SR
+   st
+   MS
+
+> let preedString st = 
+-      match  (List.exists (fun en -> strContain(st,en)) unsafeEntities) with
+-      | true -> Invalid("unsafe!")
+-      | false -> Valid(st);;
+val preedString : st:string -> userInput
+
+> let validateEntities (req: Map<string,string>) = 
+-     let myKeyz = (keyz req)   
+-     myKeyz |> Seq.map (fun x -> (x, Valid(req.[x]) |> (validationAccepting preedString)  |> (validationAccepting lengthValidate))) |> Li- st.ofSeq;;
+val validateEntities : req:Map<string,string> -> (string * userInput) list
+
+> let validateMo (req: Map<string,string>) =                                                                                              -    (validateEntities req) |> recompose;;
+
+     (validateEntities req) |> recompose;;
+  -----------------------------^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(399,30): error FS0001: Type mismatch. Expecting a
+    '(string * userInput) list -> 'a'    
+but given a
+    'Map<string,string> -> (string * string) list -> Map<string,string>'    
+The type '(string * userInput) list' does not match the type 'Map<string,string>'
+
+> type validatedMap = Valido of Map<string,string> | Invalido of string;
+
+  type validatedMap = Valido of Map<string,string> | Invalido of string;
+  ---------------------------------------------------------------------^
+
+/Users/usuario/wpractice/sls/myService/stdin(400,70): error FS0010: Unexpected symbol ';' in member definition
+
+- ;;
+> type validatedMap = Valido of Map<string,string> | Invalido of string;;
+type validatedMap =
+  | Valido of Map<string,string>
+  | Invalido of string
+
+> let validateMap mylst =                 
+-   match mylst with 
+-   | ]
+
+    | ]
+  ----^
+
+/Users/usuario/wpractice/sls/myService/stdin(405,5): error FS0010: Unexpected symbol ']' in expression
+
+- ;;
+> let validateMap mylst =
+-   match myLst with;;
+
+    match myLst with;;
+  ------------------^^
+
+/Users/usuario/wpractice/sls/myService/stdin(408,19): error FS0010: Incomplete structured construct at or before this point in expression
+
+> let validateMap mylst acc =
+-   match myLst with
+-   | [] -> acc
+-   | (k, Valid(s)) -> (validateMap mylst;);;
+
+    match myLst with
+  --------^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(410,9): error FS0039: The value or constructor 'myLst' is not defined. Maybe you want one of the following:
+   mylst
+
+> let validateMap mylst acc =
+-   match myLst with
+- ;;
+
+  ;;
+  ^^
+
+/Users/usuario/wpractice/sls/myService/stdin(415,1): warning FS0058: Possible incorrect indentation: this token is offside of context started at position (414:3). Try indenting this token further or using standard formatting conventions.
+
+
+  ;;
+  ^^
+
+/Users/usuario/wpractice/sls/myService/stdin(415,1): error FS0010: Incomplete structured construct at or before this point in expression
+
+> let validateMap mylst acc =
+-   match mylst with         
+-   | [] -> acc
+-   | (k, Valid(s)) :: t -> (validateMap t ((k,s)  :: acc) )
+-   | (_, Invalid(s)) -> FAIL;;
+
+    | (k, Valid(s)) :: t -> (validateMap t ((k,s)  :: acc) )
+  ---------------------------^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(419,28): error FS0039: The value or constructor 'validateMap' is not defined. Maybe you want one of the following:
+   validatedMap
+   validate
+   Valid
+   validateEntities
+   validationAccepting
+
+> Valido;;                      
+val it : arg0:Map<string,string> -> validatedMap
+
+> validatedMap;;
+
+  validatedMap;;
+  ^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(422,1): error FS0039: The value or constructor 'validatedMap' is not defined.
+
+> let validateMap mylst acc =
+-   match mylst with
+-   | [] -> Valido(acc)
+-   | (k, Valid(s)) :: t -> (validateMap t ((k,s)  :: acc) )
+-   | (_, Invalid(ss)) -> Invalido(ss);;
+
+    | (k, Valid(s)) :: t -> (validateMap t ((k,s)  :: acc) )
+  ---------------------------^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(426,28): error FS0039: The value or constructor 'validateMap' is not defined. Maybe you want one of the following:
+   validatedMap
+   validate
+   Valid
+   validateEntities
+   validationAccepting
+
+> let rec validateMap mylst acc =
+-    match mylst with
+-    | [] -> Valido(acc)
+-    | (k, Valid(s)) :: t -> (validateMap t ((k,s)  :: acc) )
+-    | (_, Invalid(ss)) -> Invalido(ss);;
+
+     | (k, Valid(s)) :: t -> (validateMap t ((k,s)  :: acc) )
+  -------------------------------------------^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(431,44): error FS0001: This expression was expected to have type
+    'Map<string,string>'    
+but here has type
+    ''a list'    
+
+> let rec validateMap mylst acc =
+-    match mylst with
+-    | [] -> Valido(acc)
+-    | (k, Valid(s)) :: t -> (validateMap t  (k,s)::acc ) 
+-    | (_, Invalid(ss)) -> Invalido(ss);;
+
+     | (k, Valid(s)) :: t -> (validateMap t  (k,s)::acc )
+  ----------------------------^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(436,29): error FS0001: All branches of a pattern match expression must return values of the same type as the first branch, which here is 'validatedMap'. This branch returns a value of type ''a list'.
+
+> let rec validateMap mylst acc =
+-     match mylst with
+-     | [] -> Valido(acc)
+-     | (_, Invalid(ss)) -> Invalido(ss)
+-     | (k, Valid(s)) :: t -> (validateMap t  (k,s)::acc ) ;;   
+
+      | (_, Invalid(ss)) -> Invalido(ss)
+  -------^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(441,8): error FS0001: This expression was expected to have type
+    ''a list'    
+but here has type
+    ''b * 'c'    
+
+> let rec validateMap mylst acc =
+-     match mylst with
+-     | [] -> Valido(acc)
+-     | (_, Invalid(ss)) :: _ -> Invalido(ss)
+-     | (k, Valid(s)) :: t -> (validateMap t  (k,s)::acc ) ;; 
+
+      | (k, Valid(s)) :: t -> (validateMap t  (k,s)::acc ) ;; 
+  -----------------------------^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(447,30): error FS0001: All branches of a pattern match expression must return values of the same type as the first branch, which here is 'validatedMap'. This branch returns a value of type ''a list'.
+
+> type validatedMap = Valido of (string * string) list | Invalido of string;
+
+  type validatedMap = Valido of (string * string) list | Invalido of string;
+  -------------------------------------------------------------------------^
+
+/Users/usuario/wpractice/sls/myService/stdin(448,74): error FS0010: Unexpected symbol ';' in member definition
+
+- type validatedMap = Valido of (string * string) list | Invalido of string;;
+> type validatedMap = Valido of (string * string) list | Invalido of string;;
+type validatedMap =
+  | Valido of (string * string) list
+  | Invalido of string
+
+> let rec validateMap mylst acc =
+-     match mylst with
+-     | [] -> Valido(acc)
+-     | (_, Invalid(ss)) :: _ -> Invalido(ss)
+-     | (k, Valid(s)) :: t -> (validateMap t  ((k,s)::acc) ) ;;
+val validateMap :
+  mylst:(string * userInput) list ->
+    acc:(string * string) list -> validatedMap
+
+> let validateFull (req: Map<string, string>) = req |> validateEntities |> validateMap;;
+val validateFull :
+  req:Map<string,string> -> ((string * string) list -> validatedMap)
+
+> let validatePipeline (req: Map<string, string>) =
+-   match (validateFull req) with
+-   | Invalido(ss) -> Invalid(ss)
+-   | Valido(ss) -> Valid((ss |> validateMap |> recompose));;
+
+    | Invalido(ss) -> Invalid(ss)
+  ----^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(459,5): error FS0001: This expression was expected to have type
+    '(string * string) list -> validatedMap'    
+but here has type
+    'validatedMap'    
+
+> let validatePipeline (req: Map<string, string>) =          
+-    match (validateFull req) with
+-    | Invalido(ss) -> Invalid(ss)
+-    | Valido(ss) -> Valid(ss |> validateMap |> recompose);;
+
+     | Invalido(ss) -> Invalid(ss)
+  -----^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(463,6): error FS0001: This expression was expected to have type
+    '(string * string) list -> validatedMap'    
+but here has type
+    'validatedMap'    
+
+> let reqq =
+-     Map.empty.
+-         Add("a", "yo").
+-         Add("b", "sdfdsf,,...").
+-         Add("c", "dafs").
+-         Add("d", "dfdd");; 
+val reqq : Map<string,string> =
+  map [("a", "yo"); ("b", "sdfdsf,,..."); ("c", "dafs"); ("d", "dfdd")]
+
+> (validateFull reqq);
+- ;;
+val it : ((string * string) list -> validatedMap) = <fun:it@471-10>
+
+> let rec validateMap acc mylst =
+-     match mylst with
+-     | [] -> Valido(acc)
+-     | (_, Invalid(ss)) :: _ -> Invalido(ss)
+-     | (k, Valid(s)) :: t -> (validateMap t  ((k,s)::acc) ) ;; 
+
+      | (k, Valid(s)) :: t -> (validateMap t  ((k,s)::acc) ) ;; 
+  -----------------------------------------^
+
+/Users/usuario/wpractice/sls/myService/stdin(477,42): error FS0001: The type 'string' does not match the type 'userInput'
+
+> let rec validateMap acc mylst =
+-     match mylst with
+-     | [] -> Valido(acc)
+-     | (_, Invalid(ss)) :: _ -> Invalido(ss)
+-     | (k, Valid(s)) :: t -> (validateMap  ((k,s)::acc) ) t) ;;    
+
+      | (k, Valid(s)) :: t -> (validateMap  ((k,s)::acc) ) t) ;;    
+  ----------------------------------------------------------^
+
+/Users/usuario/wpractice/sls/myService/stdin(482,59): error FS0010: Unexpected symbol ')' in expression. Expected incomplete structured construct at or before this point or other token.
+
+> let rec validateMap acc mylst =
+-     match mylst with
+-     | [] -> Valido(acc)
+-     | (_, Invalid(ss)) :: _ -> Invalido(ss)
+-     | (k, Valid(s)) :: t -> (validateMap  (k,s)::acc)  t) ;;
+
+      | (k, Valid(s)) :: t -> (validateMap  (k,s)::acc)  t) ;;
+  --------------------------------------------------------^
+
+/Users/usuario/wpractice/sls/myService/stdin(487,57): error FS0010: Unexpected symbol ')' in expression. Expected incomplete structured construct at or before this point or other token.
+
+> let rec validateMap acc mylst =
+-     match mylst with
+-     | [] -> Valido(acc)
+-     | (_, Invalid(ss)) :: _ -> Invalido(ss)
+-     | (k, Valid(s)) :: t -> (validateMap  ((k,s)::acc)  t) ;;    
+val validateMap :
+  acc:(string * string) list ->
+    mylst:(string * userInput) list -> validatedMap
+
+> let validateFull (req: Map<string, string>) = req |> validateEntities |> (validateMap []);;    
+val validateFull : req:Map<string,string> -> validatedMap
+
+> let validatePipeline (req: Map<string, string>) =
+-    match (validateFull req) with
+-    | Invalido(ss) -> Invalid(ss)
+-    | Valido(ss) -> Valid(ss |> validateMap |> recompose);;
+
+     | Valido(ss) -> Valid(ss |> validateMap |> recompose);;
+  ----------------------------------------------^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(497,47): error FS0001: The type '(string * userInput) list -> validatedMap' does not match the type 'Map<string,string>'
+
+> let validatePipeline (req: Map<string, string>) =
+-    match (validateFull req) with
+-    | Invalido(ss) -> Invalid(ss)
+-    | Valido(ss) -> Valid(ss |> recompose);;
+
+     | Valido(ss) -> Valid(ss |> recompose);;
+  -------------------------------^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(501,32): error FS0001: The type '(string * string) list' does not match the type 'Map<string,string>'
+
+> (validateFull reqq);;
+val it : validatedMap =
+  Valido [("d", "dfdd"); ("c", "dafs"); ("b", "sdfdsf,,..."); ("a", "yo")]
+
+> (validateFull reqq.Add("c","NOT_NULL"));;  
+
+  (validateFull reqq.Add("c","NOT_NULL"));;
+  --------------^^^^^^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(503,15): error FS0597: Successive arguments should be separated by spaces or tupled, and arguments involving function or method applications should be parenthesized
+
+> reqq.Add("c","NOT_NULL")
+- ;;
+val it : Map<string,string> =
+  map [("a", "yo"); ("b", "sdfdsf,,..."); ("c", "NOT_NULL"); ("d", "dfdd")]
+
+> (validateFull (reqq.Add("c","NOT_NULL")));;
+val it : validatedMap = Invalido "unsafe!"
+
+> (validateFull reqq);;                      
+val it : validatedMap =
+  Valido [("d", "dfdd"); ("c", "dafs"); ("b", "sdfdsf,,..."); ("a", "yo")]
+
+> (recompose [("d", "dfdd"); ("c", "dafs"); ("b", "sdfdsf,,..."); ("a", "yo")]);;
+
+  (recompose [("d", "dfdd"); ("c", "dafs"); ("b", "sdfdsf,,..."); ("a", "yo")]);;
+  -----------^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(508,12): error FS0001: This expression was expected to have type
+    'Map<string,string>'    
+but here has type
+    ''a list'    
+
+> let validatePipeline (req: Map<string, string>) =
+-    match (validateFull req) with
+-    | Invalido(ss) -> Invalid(ss)
+-    | Valido(ss) -> Valid(ss |> (recompose Map.empty));;
+
+     | Valido(ss) -> Valid(ss |> (recompose Map.empty));;
+  --------------------------------^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(512,33): error FS0001: The type 'string' does not match the type 'Map<string,string>'
+
+> (recompose Map.empty);;
+val it : ((string * string) list -> Map<string,string>) = <fun:it@513-11>
+
+> (validateFull reqq);;
+val it : validatedMap =
+  Valido [("d", "dfdd"); ("c", "dafs"); ("b", "sdfdsf,,..."); ("a", "yo")]
+
+> let Valido(u) = (validateFull reqq);;
+val Valido : u:'a -> validatedMap
+
+> u;;
+
+  u;;
+  ^
+
+/Users/usuario/wpractice/sls/myService/stdin(516,1): error FS0039: The value or constructor 'u' is not defined.
+
+> let Valido(x) = (validateFull reqq);;
+val Valido : x:'a -> validatedMap
+
+> x;;
+
+  x;;
+  ^
+
+/Users/usuario/wpractice/sls/myService/stdin(518,1): error FS0039: The value or constructor 'x' is not defined.
+
+> let x = (validateFull reqq);;        
+val x : validatedMap =
+  Valido [("d", "dfdd"); ("c", "dafs"); ("b", "sdfdsf,,..."); ("a", "yo")]
+
+> let u = match x with
+- | Valido(y) -> y
+
+  | Valido(y) -> y
+  ^
+
+/Users/usuario/wpractice/sls/myService/stdin(521,1): warning FS0058: Possible incorrect indentation: this token is offside of context started at position (520:9). Try indenting this token further or using standard formatting conventions.
+
+- let u = match x with         
+-   | Valido(y) -> y  
+
+    | Valido(y) -> y
+  --^
+
+/Users/usuario/wpractice/sls/myService/stdin(523,3): warning FS0058: Possible incorrect indentation: this token is offside of context started at position (522:9). Try indenting this token further or using standard formatting conventions.
+
+- x;;                 
+
+  let u = match x with
+  --------------^
+
+/Users/usuario/wpractice/sls/myService/stdin(520,15): warning FS0025: Incomplete pattern matches on this expression. For example, the value 'Invalido (_)' may indicate a case not covered by the pattern(s).
+
+
+  let u = match x with
+  --------------^
+
+/Users/usuario/wpractice/sls/myService/stdin(522,15): warning FS0025: Incomplete pattern matches on this expression. For example, the value 'Invalido (_)' may indicate a case not covered by the pattern(s).
+
+
+  let u = match x with
+  ----^
+
+/Users/usuario/wpractice/sls/myService/stdin(522,5): error FS0037: Duplicate definition of value 'u'
+
+> let x = (validateFull reqq);; 
+val x : validatedMap =
+  Valido [("d", "dfdd"); ("c", "dafs"); ("b", "sdfdsf,,..."); ("a", "yo")]
+
+> let (Valido(x)) = (validateFull reqq);; 
+
+  let (Valido(x)) = (validateFull reqq);; 
+  ----^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(526,5): warning FS0025: Incomplete pattern matches on this expression. For example, the value 'Invalido (_)' may indicate a case not covered by the pattern(s).
+
+val x : (string * string) list =
+  [("d", "dfdd"); ("c", "dafs"); ("b", "sdfdsf,,..."); ("a", "yo")]
+
+> x;;
+val it : (string * string) list =
+  [("d", "dfdd"); ("c", "dafs"); ("b", "sdfdsf,,..."); ("a", "yo")]
+
+> (recompose Map.empty);;
+val it : ((string * string) list -> Map<string,string>) = <fun:it@528-12>
+
+> x |> (recompose Map.empty);;
+val it : Map<string,string> =
+  map [("a", "yo"); ("b", "sdfdsf,,..."); ("c", "dafs"); ("d", "dfdd")]
+
+> let validatePipeline (req: Map<string, string>) =
+-    match (validateFull req) with
+-    | Invalido(ss) -> Invalid("fuck u faggot")
+-    | Valido(ss) -> Valid((ss |> (recompose Map.empty)));
+- 
+- ;;
+
+     | Valido(ss) -> Valid((ss |> (recompose Map.empty)));
+  ---------------------------------^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(533,34): error FS0001: The type 'string' does not match the type 'Map<string,string>'
+
+> let validatePipeline (req: Map<string, string>) =
+-    match (validateFull req) with
+-    | Invalido(ss) -> Invalid("fuck u faggot")
+-    | Valido(ss) -> Valid(ss |> (recompose Map.empty));
+- 
+- '''';;;
+
+  '''';;;
+  ---^
+
+/Users/usuario/wpractice/sls/myService/stdin(541,4): error FS0010: Unexpected quote symbol in interaction. Expected incomplete structured construct at or before this point, ';', ';;' or other token.
+
+> 
+  '''';;;
+  ------^
+
+/Users/usuario/wpractice/sls/myService/stdin(541,7): warning FS0527: A semicolon is not expected at this point
+
+> let validatePipeline (req: Map<string, string>) =
+-    match (validateFull req) with
+-    | Invalido(ss) -> Invalid("fuck u faggot")
+-    | Valido(ss) -> Valid(ss |> (recompose Map.empty));;
+
+     | Valido(ss) -> Valid(ss |> (recompose Map.empty));;
+  --------------------------------^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(545,33): error FS0001: The type 'string' does not match the type 'Map<string,string>'
+
+> (recompose Map.empty);;
+val it : ((string * string) list -> Map<string,string>) = <fun:it@546-13>
+
+> (recompose Map.empty) "yo";;
+
+  (recompose Map.empty) "yo";;
+  ----------------------^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(547,23): error FS0001: This expression was expected to have type
+    '(string * string) list'    
+but here has type
+    'string'    
+
+> let validateFull (req: Map<string, string>) = req |> validateEntities |> (validateMap []);;    
+val validateFull : req:Map<string,string> -> validatedMap
+
+> (validateFull reqq);;
+val it : validatedMap =
+  Valido [("d", "dfdd"); ("c", "dafs"); ("b", "sdfdsf,,..."); ("a", "yo")]
+
+> reqq;
+- ;;
+val it : Map<string,string> =
+  map [("a", "yo"); ("b", "sdfdsf,,..."); ("c", "dafs"); ("d", "dfdd")]
+
+> let validatePipeline (req: Map<string, string>) =
+-    match (validateFull req) with
+-    | Invalido(ss) -> Invalid("fuck u faggot")
+-    | Valido(ss) -> (
+-        let u = ss |> (recompose Map.empty)
+
+         let u = ss |> (recompose Map.empty)
+  -------^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(556,8): warning FS0058: Possible incorrect indentation: this token is offside of context started at position (555:20). Try indenting this token further or using standard formatting conventions.
+
+
+         let u = ss |> (recompose Map.empty)
+  -------^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(556,8): warning FS0058: Possible incorrect indentation: this token is offside of context started at position (555:20). Try indenting this token further or using standard formatting conventions.
+
+-        Valid(u));;
+
+         Valid(u));;
+  -------^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(557,8): warning FS0058: Possible incorrect indentation: this token is offside of context started at position (555:20). Try indenting this token further or using standard formatting conventions.
+
+
+         Valid(u));;
+  -------^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(557,8): warning FS0058: Possible incorrect indentation: this token is offside of context started at position (555:20). Try indenting this token further or using standard formatting conventions.
+
+
+         Valid(u));;
+  -------------^
+
+/Users/usuario/wpractice/sls/myService/stdin(557,14): error FS0001: This expression was expected to have type
+    'string'    
+but here has type
+    'Map<string,string>'    
+
+> ;;
+> ;;
+> let validatePipeline (req: Map<string, string>) =
+-    match (validateFull req) with
+-    | Invalido(ss) -> Invalid("fuck u faggot")
+-    | Valido(ss) -> (
+-                      let u = ss |> (recompose Map.empty)
+-                      Valid(u) );;
+
+                       Valid(u) );;
+  ---------------------------^
+
+/Users/usuario/wpractice/sls/myService/stdin(565,28): error FS0001: This expression was expected to have type
+    'string'    
+but here has type
+    'Map<string,string>'    
+
+> let validatePipeline (req: Map<string, string>) =
+-    match (validateFull req) with
+-    | Invalido(ss) -> NoSiga("fuck u faggot")
+-    | Valido(ss) -> (
+-                      let u = ss |> (recompose Map.empty)
+-                      Siga(u) );;
+val validatePipeline : req:Map<string,string> -> middlewareResult
+
+> let transformFull (r: Map<string, string>) =
+-    (transformEntities r) |> (recompose Map.empty);;
+val transformFull : r:Map<string,string> -> Map<string,string>
+
+> let transformFull (r: Map<string, string>) =
+-    (transformEntities r) |> (recompose Map.empty) |> (fun s -> Siga(s));;
+val transformFull : r:Map<string,string> -> middlewareResult
+
+> (sigaAccepting transformFull)
+- ;;
+
+  (sigaAccepting transformFull)
+  -^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(576,2): error FS0039: The value or constructor 'sigaAccepting' is not defined. Maybe you want one of the following:
+   noSigaAccepting
+   Siga
+
+> (noSigaAccepting transformFull);;
+val it : (middlewareResult -> middlewareResult) = <fun:it@578-15>
+
+> (noSigaAccepting validatePipeline);;
+val it : (middlewareResult -> middlewareResult) = <fun:it@579-17>
+
+> Siga(reqq);;
+val it : middlewareResult =
+  Siga (map [("a", "yo"); ("b", "sdfdsf,,..."); ("c", "dafs"); ("d", "dfdd")])
+
+> Siga(reqq) |> (noSigaAccepting transformFull);;
+val it : middlewareResult =
+  Siga
+    (map
+       [("a", "yo"); ("b", "sdfdsf,,&#46;&#46;&#46;"); ("c", "dafs");
+        ("d", "dfdd")])
+
+> Siga(reqq) |> (noSigaAccepting transformFull) |> (noSigaAccepting validatePipeline);;
+val it : middlewareResult =
+  Siga
+    (map
+       [("a", "yo"); ("b", "sdfdsf,,&#46;&#46;&#46;"); ("c", "dafs");
+        ("d", "dfdd")])
+
+> Siga(reqq.Add("k","ajdfsiojadsfiojdfsiojdfsiojdasfiojadfsoijafdsiojadifsjodfiojasadfjiosdsoafijdoiasjijodfsaiodfsjioasdf")) |> (noSigaAc- cepting transformFull) |> (noSigaAccepting validatePipeline);;
+val it : middlewareResult = NoSiga "fuck u faggot"
+
+> Siga(reqq.Add("NOT_NULL")) |> (noSigaAccepting transformFull) |> (noSigaAccepting validatePipeline);;                                                                                                   
+  Siga(reqq.Add("NOT_NULL")) |> (noSigaAccepting transformFull) |> (noSigaAccepting validatePipeline);;
+  --------------^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(584,15): error FS0001: This expression was expected to have type
+    'string * string'    
+but here has type
+    'string'    
+
+> Siga(reqq.Add("3","NOT_NULL")) |> (noSigaAccepting transformFull) |> (noSigaAccepting validatePipeline);;
+val it : middlewareResult = NoSiga "fuck u faggot"
+
+> let applyMiddleware (rq: Map<string,string>) mw =
+-   match mw with
+- ;;;    
+
+  ;;;
+  ^^
+
+/Users/usuario/wpractice/sls/myService/stdin(588,1): warning FS0058: Possible incorrect indentation: this token is offside of context started at position (587:3). Try indenting this token further or using standard formatting conventions.
+
+
+  ;;;
+  ^^
+
+/Users/usuario/wpractice/sls/myService/stdin(588,1): error FS0010: Incomplete structured construct at or before this point in expression
+
+> 
+  ;;;
+  --^
+
+/Users/usuario/wpractice/sls/myService/stdin(588,3): warning FS0527: A semicolon is not expected at this point
+
+> let applyMw taggedReq =                                                                                  
+- ;;
+
+  ;;
+  ^^
+
+/Users/usuario/wpractice/sls/myService/stdin(590,1): error FS0010: Unexpected symbol ';;' in binding
+
+> let applyMw taggedReq mwList =
+-   match mwList with
+-   | [] -> taggedReq
+-   | h :: t -> (applyMw ((noSigaAccepting h) taggedReq) t);;
+
+    | h :: t -> (applyMw ((noSigaAccepting h) taggedReq) t);;
+  ---------------^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(594,16): error FS0039: The value or constructor 'applyMw' is not defined.
+
+> let rec applyMw taggedReq mwList =
+-   match mwList with
+-   | [] -> taggedReq
+-   | h :: t -> (applyMw ((noSigaAccepting h) taggedReq) t);;
+val applyMw :
+  taggedReq:middlewareResult ->
+    mwList:(Map<string,string> -> middlewareResult) list -> middlewareResult
+
+> recc;;            
+
+  recc;;
+  ^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(599,1): error FS0039: The value or constructor 'recc' is not defined.
+
+> reqq;;
+val it : Map<string,string> =
+  map [("a", "yo"); ("b", "sdfdsf,,..."); ("c", "dafs"); ("d", "dfdd")]
+
+> (applyMq Siga(reqq) [transformFull, validatePipeline]);;
+
+  (applyMq Siga(reqq) [transformFull, validatePipeline]);;
+  ---------^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(601,10): error FS0597: Successive arguments should be separated by spaces or tupled, and arguments involving function or method applications should be parenthesized
+
+> (applyMq (Siga(reqq)) [transformFull, validatePipeline]);;
+
+  (applyMq (Siga(reqq)) [transformFull, validatePipeline]);;
+  -^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(602,2): error FS0039: The value or constructor 'applyMq' is not defined. Maybe you want one of the following:
+   applyMw
+
+> (applyMw (Siga(reqq)) [transformFull, validatePipeline]);;
+
+  (applyMw (Siga(reqq)) [transformFull, validatePipeline]);;
+  -----------------------^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/Users/usuario/wpractice/sls/myService/stdin(603,24): error FS0001: This expression was expected to have type
+    'Map<string,string> -> middlewareResult'    
+but here has type
+    ''a * 'b'    
+
+> let u = Siga(reqq);;                                      
+val u : middlewareResult =
+  Siga (map [("a", "yo"); ("b", "sdfdsf,,..."); ("c", "dafs"); ("d", "dfdd")])
+
+> (applyMw u [transformFull; validatePipeline]);;
+val it : middlewareResult =
+  Siga
+    (map
+       [("a", "yo"); ("b", "sdfdsf,,&#46;&#46;&#46;"); ("c", "dafs");
+        ("d", "dfdd")])
+
+> (applyMw u [transformFull; validatePipeline]);;
+val it : middlewareResult =
+  Siga
+    (map
+       [("a", "yo"); ("b", "sdfdsf,,&#46;&#46;&#46;"); ("c", "dafs");
+        ("d", "dfdd")])
+
+> 
