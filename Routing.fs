@@ -54,8 +54,7 @@ let basicRequest =
 let basicRequestParent =
     Map.empty.
        Add("k4", Num(3)).
-       Add("k3", MapRef(basicRequest));;       
-//and reqMap = (string * reqMapNode) list;
+       Add("k3", MapRef(basicRequest));;  
 let rec recompose (acc: Map<string,string>) tupleSeq =  // list of tuples to immutable map
      match (Seq.toList tupleSeq) with
      | [] -> acc
@@ -147,18 +146,7 @@ let rec applyMw taggedReq mwList =
    | [] -> taggedReq
    | h :: t -> (applyMw ((noSigaAccepting h) taggedReq) t);;
 let _ = (applyMw (Siga(reqq)) [transformFull; validatePipeline]);;   
-//need
-// jwt verify middleware
-// jwt claims check middleware
-// first-class fn to deal w apiresponse/req objects in actual middleware, dto basically
-// json dto
-// jwt secrets
-// actual endpoints including up/down
-// front end hosting
-// api architecture, including 
-//    JWT auth
-//    get list
-//    post list
+
 
 
 
@@ -244,95 +232,6 @@ let isValid stri =
             | false -> Siga(req)
             );;
 
-
-                      //let _ = (applyMw (Siga(reqq)) [transformFull; validatePipeline]);;   
-    //let validatePipeline (req: Map<string, string>) =
-    //match (validateFull req) with
-    //| Invalido(ss) -> NoSiga("nahhhh")
-    //| Valido(ss) -> (
-    //                let u = ss |> (recompose Map.empty)
-    //                 Siga(u) );;
-
-    //type middlewareResult = Siga of Map<string,string> | NoSiga of string;;   
-
-
-    //let testjson = "{ 'count' : 15 }"
-
-        // look up "matches" etc
-    // https://docs.microsoft.com/en-us/dotnet/api/system.text.regularexpressions.regex.matches?redirectedfrom=MSDN&view=netcore-3.1#overloads
-    // YO
-    // (System.Net.WebUtility.HtmlEncode i.Title)
-    // http://www.fssnip.net/7QI/title/Generate-rss-feed-from-F-record-items
-    // seems to be the way to go? test it out
-    // can use Active Patterns for domain validation
-    // maybe for anti-injection
-    // https://medium.com/appsecengineer/dynamodb-injection-1db99c2454ac
-    // ComparisonOperator like GT, LT, NE, NOT_CONTAINS, etc
-    // how to convert?
-    // WILL NEED Json Schema https://stackoverflow.com/questions/45589504/input-validation-for-nodejs-lambda-functions-backed-by-dynamodb
-    // http://docs.aws.amazon.com/apigateway/latest/developerguide/models-mappings.html#models-mappings-mappings
-    // http://json-schema.org/
-    // POLICY
-    
-    (* we are going to pipe-recurse this until nothing changes *)
-    (* same with others *)
-      //  also "all language chars" ^.*\p{L}\s]{1,50}.*$ 
-      // Dynamo?
-      // JSON? no, sls validates that, right?
-      // ComparisonOperator like GT, LT, NE, NOT_CONTAINS, etc
-      // how do we do that comprehensively? so it comes back out?
-      // need all ComparisonOperators
-      // could be this
-      // https://serverless.com/framework/docs/providers/aws/events/apigateway/
-      // To use request schema validation with API gateway, add the JSON Schema for your content type. Since JSON Schema is represented in JSON, it's easier to include it from a file.
-      // API Gateway *learn more*
-      // "Since JSON Schema is represented in JSON, it's easier to include it from a file."
-      // in serverless.yaml...
-      // application/json: ${file(create_request.json)}
-
-    //let decodeString (jwt : string) =
-    //  let key = System.Text.Encoding.ASCII.GetBytes("ty3$~dwa-dm$0")
-    //  let payload = { sub : "user0", exp : 1300819380 }
-
-    //  //let decode = Jose.JWT.Decode(jwt, key, Jose.JwsAlgorithm.HS256)
-    //  //key
-    // need some closure-type first-class fn logic
-    // for auth middleware (potentially >1)
-
-    // no querystring is a 500 - fix it!
-
-    // map errs, optional to check? keys validation?
-    //match request.QueryStringParameters.ContainsKey("uu") with
-    // dd
-        (*DRY - wrap*)    
-                // checkJwtClaims3 is curried there -- it returns a function w/ an augmented environment, like a closure
-
-        //{ Message= ("here is some F# function output from your domain:" + Cms.uuuu + "*** blocks ***" + Cms.blocks2 + "**** and RESULT match statement (string) value: ****" + Cms.uStr + "******** btw json: *****" + Cms.bracketsDemo)
-        //{ Message= ("here is some F# function output from your domain:" + Cms.uuuu )
-        //  Request=request }
-        //let method = request.HttpMethod
-
-
-
-        //// GOOOD containskey etc
-                //let siVale = isValid(encoded)
-        // NOT doin that
-        //let {Issuer =_; Expiry=_; Claims=masterClaims} = decoded;
-        //let gotIt = List.exists ((=) "richgangsta") masterClaims;
-        //let gotItS = match gotIt with
-        //| true -> "true" 
-        //| false -> "nah dude";
-        //match request.QueryStringParameters.ContainsKey("uu") with
-
-
-                // match siVale with
-        //| None -> APIGatewayProxyResponse(StatusCode = 400)
-        //| Some(_) -> APIGatewayProxyResponse(StatusCode = 200, Body = string(encoded) + "**yeah**" + decoded + "**whoa**" + string(Convert.ToBase64String(u)))
-        //| true -> APIGatewayProxyResponse(StatusCode = 200, Body = string((request.QueryStringParameters.["uu"]),    decodeString("yo")))
-
-
-
-// map stuff
 
     let getValFromKey (req: Map<string, string>) (k: string) =
         let lookup = req.ContainsKey(k)
