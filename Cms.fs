@@ -121,7 +121,6 @@ exception DtoError of string
 (* SECURITY??? validate user-provided input AS EARLY AS POSSIBLE *)
 let evtFromDto dto =
     let { City = cityStr; Club = clubStr; Day = dayInt; Month = monthStr; TicketLink = tixLinkStr; VipLink = vipLinkStr; TicketLinkIsWindow= tixLinkIsWindow; VipLinkIsWindow = vipLinkIsWindow; EventLinkIsWindow = evtLinkIsWindow; EventLink = evtLinkStr; TourName=t } = dto
-    // (above -- clean up syntax? multiline destructuring record def?)
     let tixLink = (tagTixData tixLinkIsWindow tixLinkStr Encoder.HtmlEncode)
     let vipLink = (tagVipData vipLinkIsWindow vipLinkStr Encoder.HtmlEncode)
     let evtLink = (tagEventData evtLinkIsWindow evtLinkStr Encoder.HtmlEncode)
@@ -129,7 +128,6 @@ let evtFromDto dto =
     let taggedDateTuple = (Month(monthStr), Day(dayInt))
     let taggedCity = City(cityStr)
     let taggedClub = Club(clubStr)
-    // (below... better expression? not if else?)
     match ((dayInt > 31) || (dayInt < 1)) with
     | true -> Error(DtoError("bad date"))
     | false -> Ok ((
@@ -245,8 +243,6 @@ let button urlVal content =
     """</button>"""
 
   
-// note the escaping seems to not be happening here -- but rather in JSON/http
-// am I right?? triple quote doesn't imply escaping? need to research this
 let block evtt = match evtt with
                | (EventLink(eL), _,_,_, Ticket(tL),Vip(vL),  TourName(_)) -> (
                      """<tr><th scope="row">"""
